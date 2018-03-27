@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>易和生活港 | 商品搜索</title>
+		<link rel="stylesheet" type="text/css" href="css/pullDown.css"/>
+		<style type="text/css">
+		body{
+			background-color: #f2f2f2;
+		}
+			/*轮播图*/
+			.swiper-container img{
+				width: 100%;
+				height: 470px;
+			}
+			@media screen and (max-width: 1180px){ 
+				.swiper-container{
+					width: 1180px;
+					height: 470px;
+				}
+			}
+			/*您当前位置*/
+			#yourAddress{
+				width: 1180px;
+				padding: 20px 0;
+				margin: 0 auto;
+			}
+			.HLAhomeSpan{
+				color: #ec6a17;
+				cursor: pointer;
+			}
+			#goodsSearch{
+				width: 1138px;
+				margin: 0 auto 30px;
+				padding: 20px;
+				border: 1px solid #d3d3d3;
+				display: flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				background-color: white;
+			}
+			.content-todayOnSale{
+				width: 218px;
+				height: 331px;
+				border: 1px solid #e1e1e1;
+				background-color: white;
+				margin-bottom: 20px;
+			}
+			.content-todayOnSale:hover{
+				border: 1px solid hotpink;
+			}
+			/*文字部分*/
+			.swiper-rushBuy-text{
+				height: 110px;
+				line-height: 30px;
+				padding: 10px;
+			}
+			.swiper-rushBuy-text p{
+				color: #666666;
+				font-size: 14px;
+			}
+			/*现价*/
+			.swiper-span01{
+				color: red;
+			}
+			/*原价*/
+			.swiper-span02{
+				font-size: 14px;
+				text-decoration: line-through;
+				float: right;
+			}
+		</style>
+	</head>
+	<body>
+		<!--<iframe src="head.html" width="100%" height="169px" scrolling="no" frameborder="0"></iframe>-->
+		<div id="div1"></div>
+		<!--下拉-->
+		<div id="selectMenu">
+			<div id="pullDown" >
+				<!--行业分类-->
+				<span id="tradeClassify">
+					<div>
+						行业分类
+						<img src="img/homePage/whiteJianTou.png"/>
+					</div>
+				</span>
+				<!--行业分类下拉内容-->
+				<div id="tradeClassify_pullDown">
+					<!--左侧分类-->
+					<ul id="pullDownLeft">
+						<li>
+							服装超市
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							建材装修
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							休闲娱乐
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							生活服务
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							3C市场
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							丽人
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+				      		本地生活
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							购物
+				      		<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+			 				电子数码
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+					</ul>
+					<!--详细内容-->
+					<div id="pullDownRight">
+						<ul>
+							<li>
+								<a href="./HLAhome.html" style="text-decoration: none;color:white">海澜之家</a>
+							</li>
+						    <li>Adidas</li>
+						</ul>
+						<ul>
+							<li>全友家私</li>
+							<li>居然之家</li>
+						</ul>
+						<ul>
+							<li>steam</li>
+							<li>育碧</li>
+						</ul>
+						<ul>
+							<li>美团外卖</li>
+							<li>百度糯米</li>
+						</ul>
+						<ul>
+							<li>iphone</li>
+							<li>华为</li>
+						</ul>
+						<ul>
+				       		<li>春纪</li>
+							<li>巴黎欧莱雅</li>
+						</ul>
+						<ul>
+							<li>同城二手</li>
+							<li>小时工</li>
+						</ul>
+						<ul>
+							<li>淘宝</li>
+							<li>京东</li>
+						</ul>
+						<ul>
+							<li>佳能</li>
+							<li>索尼</li>
+						</ul>
+					</div>
+				</div>
+				
+				<!--上方选项-->
+				<ul id="optionsMenu">
+					<li><a href="./homePage.html">首页</a></li>
+					<li><a href="./choiceShop.html">精选商家</a></li>
+					<li><a href="./todayOnSale.html">今日特价</a></li>
+					<li><a href="./pointMall.html">积分商城</a></li>
+					<li><a href="./joinYH.html">加入易和</a></li>
+					<li>
+						<a href="###" id="onlineService">在线客服</a>
+					</li>
+				</ul>
+				<!--在线客服下拉内容-->
+				<div id="serviceContent">
+					<img src="img/homePage/keFuBack.png"/>
+					<div id="QQServices">
+						<div class="QQService">
+							<img src="img/homePage/QQlogo.png"/>
+							QQ客服1
+						</div>
+						<div class="QQService">
+							<img src="img/homePage/QQlogo.png"/>
+							QQ客服2
+						</div>
+						<div class="QQService">
+							<img src="img/homePage/QQlogo.png"/>
+							QQ客服3
+						</div>
+					</div>
+					<img src="img/homePage/QRCode.png" id="serviceCode"/>
+				</div>
+			</div>
+		</div>
+		
+		<div id="yourAddress">
+				<span>您当前的位置: &nbsp;首页 > <span class="HLAhomeSpan"> </span></span>
+		</div>
+		<div id="goodsSearch">
+			<div class="content-todayOnSale">
+				<img src="img/todayOnSale/OnSale01.png"/>
+				<div class="swiper-rushBuy-text">
+					<p>自家礼包送亲人,送朋友的不二选择自家礼包送亲人...</p>
+					<span class="swiper-span01">¥ 11.8</span>
+					<span class="swiper-span02">¥ 20.0</span>
+				</div>
+			</div>
+			<div class="content-todayOnSale">
+				<img src="img/todayOnSale/OnSale02.png"/>
+				<div class="swiper-rushBuy-text">
+					<p>自家礼包送亲人,送朋友的不二选择自家礼包送亲人...</p>
+					<span class="swiper-span01">¥ 11.8</span>
+					<span class="swiper-span02">¥ 20.0</span>
+				</div>
+			</div>
+			<div class="content-todayOnSale">
+				<img src="img/todayOnSale/OnSale03.png"/>
+				<div class="swiper-rushBuy-text">
+					<p>自家礼包送亲人,送朋友的不二选择自家礼包送亲人...</p>
+					<span class="swiper-span01">¥ 11.8</span>
+					<span class="swiper-span02">¥ 20.0</span>
+				</div>
+			</div>
+			<div class="content-todayOnSale">
+				<img src="img/todayOnSale/OnSale04.png"/>
+				<div class="swiper-rushBuy-text">
+					<p>自家礼包送亲人,送朋友的不二选择自家礼包送亲人...</p>
+					<span class="swiper-span01">¥ 11.8</span>
+					<span class="swiper-span02">¥ 20.0</span>
+				</div>
+			</div><div class="content-todayOnSale">
+				<img src="img/todayOnSale/OnSale04.png"/>
+				<div class="swiper-rushBuy-text">
+					<p>自家礼包送亲人,送朋友的不二选择自家礼包送亲人...</p>
+					<span class="swiper-span01">¥ 11.8</span>
+					<span class="swiper-span02">¥ 20.0</span>
+				</div>
+			</div>
+		</div>	
+		<div class="footer">
+			<!--<iframe src="foot.html" width="100%" height="436px" scrolling="no" frameborder="0"></iframe>-->
+		</div>
+	</body>
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/pullDown.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/headAndFoot.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/pullDownJs.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$('.HLAhomeSpan').html(localStorage.words);	
+	</script>	
+	
+</html>

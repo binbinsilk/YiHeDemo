@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#orderPageCollectCenterRight1{
+	width: 986px;
+	border: 1px solid rgb(191, 191, 191);
+	/*border: 1px solid red;*/
+	height: 790px;
+	background-color: rgb(255, 255, 255);
+}
+.orderPageCollectCenterRight1Top{
+	border-bottom: 1px solid #d3d3d3;
+	height: 56px;
+	line-height: 56px;
+}
+.orderPageDataSpanTop{
+	margin-left: 20px;
+	color: #008de1;
+}
+.orderPageCollectCenterRight1Bottom{
+	width: 986px;	
+	/*border: 1px solid red;*/
+	height: 714px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 10px 5px 0 5px;
+}
+.orderPageCollectCenterRight1BottomImg{
+	width: 221px;
+	height: 340px;
+	border: 1px solid rgb(191, 191, 191);
+	text-align: center;
+	cursor: pointer;
+}
+.orderPageCollectCenterRight1BottomImg:hover{
+	border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#orderPageCommAssCenterRight{
+	width: 986px;
+	border: 1px solid rgb(191, 191, 191);
+	/*border: 1px solid red;*/
+	height: 735px;
+	background-color: rgb(255, 255, 255);
+}
+
+#orderPageCommAssCenterRightTop{
+	border-bottom: 1px solid #d3d3d3;
+	/*border: 1px solid red;*/
+	height: 56px;
+	line-height: 56px;
+}
+.orderPageSpanTop{
+	margin-left: 20px;
+	color: #008de1;
+}
+.orderPageCommAssRightBottomTop{
+	/*border: 1px solid blue;*/
+	width: 900px;
+	margin-left: 40px;
+	margin-top: 45px;
+	height: 216px;
+	overflow: hidden;
+}
+/*商品图片介绍-*/
+.CommAssImgLeft{
+	/*border: 1px solid red;*/
+	width: 175px;
+	height: 216px;
+	text-align: center;
+	float: left;
+}
+.CommAssImgLeft p{
+	margin-top: 10px;
+	color: #666666;
+}
+.CommAssImgLeft img{
+	width: 174px;
+	height: 173px;
+}
+/*商品评星*/
+.CommEval{
+	/*border: 1px solid red;*/
+	width: 200px;
+	height: 150px;
+	float: left;
+	margin-left: 40px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 20px;
+
+}
+.CommEval span{
+	margin-right: 10px;
+	color: #666;
+	font-weight: bold;
+	padding-top: 10px;
+}
+/*评价留言板*/
+textarea{
+	margin-left: 260px;
+	padding: 10px 0 0 10px;
+	margin-top: -30px;
+}
+.CommAssJiaD{
+	/*border:1px solid red;*/
+	width: 272px;
+	height: 64px;
+	margin-left: 260px;
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+/*发表评论按钮*/
+.orderPageCommAssCenterRightBottomBtn{
+	width: 173px;
+	height: 47px;
+	text-align: center;
+	line-height: 47px;
+	background-color: #ec6a17;
+	color: white;
+	margin-left: 260px;
+	margin-top: 38px;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+

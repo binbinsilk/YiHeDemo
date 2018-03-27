@@ -1,0 +1,169 @@
+*{	
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+}
+#selectMenu{
+	min-width: 1180px;
+	height: 44px;
+	background-color: white;
+	margin-top: -2px;
+	border-bottom: 3px solid #008de1;
+	position: relative;
+	z-index: 5;
+	/*border:1px solid red;*/
+}
+/*包含所有下拉样式*/
+#pullDown{
+	width: 1180px;
+	margin: 0 auto;
+	position: relative;
+}
+/*行业分类span*/
+#tradeClassify{
+	background-color: #008de1;
+	display: inline-block;
+	width: 174px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	color: white;
+}
+#tradeClassify div{
+	width: 120px;
+	height: 44px;
+	margin: 0 auto; 
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+/*--------------------------------------------*/
+/*行业分类下拉内容*/
+#tradeClassify_pullDown{
+	width: 574px;
+	height: 470px;
+	/*display: none;*/
+	display: flex;
+	justify-content: space-between;
+}
+/*左侧分类*/
+#pullDownLeft{
+	width: 174px;
+	height: 470px;
+	background-color: #404040 ;
+	display: none;
+}
+#pullDownLeft li{
+	list-style-type: none;
+	color: white;
+	height: 51px;
+	line-height: 51px;
+	border-bottom: 1px solid #666666;
+	padding-left: 37px;
+	position: relative;
+}
+#pullDownLeft li:hover{
+	background-color: #ff6c00;
+}
+#pullDownLeft img{
+	position: absolute;
+	top: 20px;
+	right: 37px;
+}
+/*右侧详情*/
+#pullDownRight{
+	width: 360px;
+	height: 430px;
+	background-color:rgba(0,0,0,0.5) ;
+	padding: 20px;
+	position: relative;
+	display: none;
+}
+#pullDownRight ul{
+	position: absolute;
+	top:20px;
+	left: 20px;
+	overflow: hidden;
+	display: none;
+}
+#pullDownRight li{
+	float: left;
+	list-style-type: none;
+	color: white;
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: 2px solid white;
+}
+#pullDownRight li:last-child{
+	border: 0;
+}
+
+/*----------------------------------------------------------*/
+
+/*上方选项*/
+#optionsMenu{
+	width: 925px;
+	margin-left: 80px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#optionsMenu li{
+	list-style-type: none;
+	float: left;
+	margin-right: 80px;
+	line-height: 44px;
+}
+#optionsMenu li:last-child{
+	margin-right: 0;
+	margin-left: 172px;
+}
+#optionsMenu li a{
+	color: #666666;
+	text-decoration: none;
+}
+#optionsMenu li a:hover{
+	color: #ff6c00;
+}
+/*在线客服*/
+#onlineService{
+	display: inline-block;
+	height: 44px;
+}
+#onlineService:hover{
+	color: #ff6c00;
+}
+/*在线客服下拉内容*/
+#serviceContent{
+	width: 148px;
+	position: relative;
+	position: absolute;
+	right: 0;
+	top: 35px;
+	display: none;
+}
+/*QQ客服*/
+#QQServices{
+	position: absolute;
+	top: 10px;
+	left: 12px;
+}
+.QQService{
+	width: 126px;
+	height: 30px;
+	background-color: #ec6a17;
+	border-radius: 8px;
+	margin-top: 10px;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+}
+/*客服二维码*/
+#serviceCode{
+	position: absolute;
+	bottom: 12px;
+	left: 12px;
+}

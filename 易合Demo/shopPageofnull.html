@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>易和生活港 | 购物车</title>
+		<link rel="stylesheet" type="text/css" href="css/shopPageofnull.css"/>
+		<link rel="stylesheet" href="css/pullDown.css" />
+		<link rel="stylesheet" href="css/tablestyle.css" />
+	</head>
+	<body>
+		<!--头部导航栏引入-->
+		<div id="div1"></div>	
+		<!--下拉菜单-->
+		<div id="selectMenu">
+			<div id="pullDown">
+				<!--行业分类-->
+				<span id="tradeClassify">
+					<div>
+						行业分类
+						<img src="img/homePage/whiteJianTou.png"/>
+					</div>
+				</span>
+				<!--行业分类下拉内容-->
+				<div id="tradeClassify_pullDown">
+					<!--左侧分类-->
+					<ul id="pullDownLeft">
+						<li>
+							服装超市
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							建材装修
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							休闲娱乐
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							生活服务
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							3C市场
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							丽人
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+				      		本地生活
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							购物
+				      		<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+			 				电子数码
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+					</ul>
+					<!--详细内容-->
+					<div id="pullDownRight">
+						<ul>
+							<li>
+								<a href="./HLAhome.html" style="text-decoration: none;color:white">海澜之家</a>
+							</li>
+						    <li>Adidas</li>
+						</ul>
+						<ul>
+							<li>全友家私</li>
+							<li>居然之家</li>
+						</ul>
+						<ul>
+							<li>steam</li>
+							<li>育碧</li>
+						</ul>
+						<ul>
+							<li>美团外卖</li>
+							<li>百度糯米</li>
+						</ul>
+						<ul>
+							<li>iphone</li>
+							<li>华为</li>
+						</ul>
+						<ul>
+				       		<li>春纪</li>
+							<li>巴黎欧莱雅</li>
+						</ul>
+						<ul>
+							<li>同城二手</li>
+							<li>小时工</li>
+						</ul>
+						<ul>
+							<li>淘宝</li>
+							<li>京东</li>
+						</ul>
+						<ul>
+							<li>佳能</li>
+							<li>索尼</li>
+						</ul>
+					</div>
+				</div>
+				
+				<!--上方选项-->
+				<ul id="optionsMenu">
+					<li><a href="./homePage.html">首页</a></li>
+					<li><a href="./choiceShop.html">精选商家</a></li>
+					<li><a href="./todayOnSale.html">今日特价</a></li>
+					<li><a href="./pointMall.html">积分商城</a></li>
+					<li><a href="./joinYH.html">加入易和</a></li>
+					<li>
+						<a href="###" id="onlineService">在线客服</a>
+					</li>
+				</ul>
+				<!--在线客服下拉内容-->
+				<div id="serviceContent">
+					<img src="img/homePage/keFuBack.png"/>
+					<div id="QQServices">
+						<div class="QQService">
+							<img src="img/homePage/QQlogo.png"/>
+							QQ客服1
+						</div>
+						<div class="QQService">
+							<img src="img/homePage/QQlogo.png"/>
+							QQ客服2
+						</div>
+						<div class="QQService">
+							<img src="img/homePage/QQlogo.png"/>
+							QQ客服3
+						</div>
+					</div>
+					<img src="img/homePage/QRCode.png" id="serviceCode"/>
+				</div>
+			</div>
+		</div>
+	
+		
+		
+		
+		<!--中间部分外部的wrap-->
+		<div class="shopOfWrap">	
+			<!--中间部分宽1180px的div-->
+				<!--中间的内容部分-->
+				<div class="shopOfCenterWrap">
+					<!--图片和我的购物车导航-->
+					<div class="navShop">
+						<a href="" style="text-decoration: none;">
+							<img src="img/myShop/yiheimg.png" alt="" />
+						</a>
+						<div style="display: inline-block;">
+							<img src="img/myShop/shop-bg11.png" alt="" />
+							<span class="myShopspan1">我的购物车</span>
+							<img src="img/myShop/shop-bg2.png" alt="" />
+							<span class="myShopspan2"><a href="./firmOrder.html" style="text-decoration: none;color:black">确认订单信息</a></span>
+							<img src="img/myShop/shop-bg0.png" alt="" />		
+							<span class="myShopspan3">订单提交成功</span>
+						</div>
+						
+					</div>
+					<!--购物车图标清单-->
+					<div class="shopcart">
+						<a href="./homePage.html"><img src="img/homePage/cart.png" alt="" /></a>
+						<span>购物车</span>
+					</div>
+					
+					<!--动态添加的内容-->
+					<div class="catbox" style="margin-top: 20px; width: 100%;">
+
+						<table id="cartTable">
+							<thead>
+								<tr>
+									<th>
+										<label>
+											<input class="check-all check" type="checkbox"/>
+											 <span>海澜之家旗舰店</span>
+										</label>
+									</th>
+									<th>规格</th>
+									<th>单价</th>
+									<th>数量</th>
+									<th>金额</th>
+									<th>操作</th>
+								</tr>
+							</thead>
+							<tbody>
+								<!--<tr>
+									<td class="checkbox" style="width:200px;">
+										<input  class="check-one check" type="checkbox" />									
+										
+										<img style="vertical-align: middle;" src="img/goodsimg/small.jpg" alt=""/>
+										<span>海澜之家 衬衫</span>
+									</td>
+									<td class="goods">
+										<p id="shopPage_clothSize">尺码: 170</p>
+										<p id="shopPage_clothColor">颜色：红</p> 
+									</td>
+									<td class="price">400.00</td>
+									<td class="count"><span class="reduce"></span><input class="count-input" type="text" value="1"/><span class="add">+</span></td>
+									<td class="subtotal">400.00</td>
+									<td class="operation"><span class="delete">删除</span></td>
+								</tr>-->
+								<!--<tr>
+									<td class="checkbox"><input class="check-one check" type="checkbox" />
+										<img style="vertical-align: middle;" src="img/goodsimg/small.jpg" alt=""/>
+										<span>海澜之家 衬衫</span>
+									</td>
+									<td class="goods">
+										<p>尺码: 170</p>
+										<p>颜色：红</p> 
+									</td>
+									<td class="price">299.00</td>
+									<td class="count"><span class="reduce"></span><input class="count-input" type="text" value="1"/><span class="add">+</span></td>
+									<td class="subtotal">299.00</td>
+									<td class="operation"><span class="delete">删除</span></td>
+								</tr>-->
+								<!--<tr>
+									<td class="checkbox"><input class="check-one check" type="checkbox"/>
+										<img style="vertical-align: middle;" src="img/goodsimg/small.jpg" alt=""/>
+										<span>海澜之家 衬衫</span>
+									</td>
+									<td class="goods">
+										<p>尺码: 170</p>
+										<p>颜色：红</p>  
+									</td>
+									<td class="price">350.00</td>
+									<td class="count"><span class="reduce"></span><input class="count-input" type="text" value="1"/><span class="add">+</span></td>
+									<td class="subtotal">350.00</td>
+									<td class="operation"><span class="delete">删除</span></td>
+								</tr>-->
+								
+							</tbody>
+						</table>
+						
+						<div class="foot" id="foot">
+							<label class="fl select-all"><input type="checkbox" class="check-all check"/>&nbsp;全选</label>
+							<a class="fl delete" id="deleteAll" href="javascript:;" style="text-decoration: none;color:#666">删除</a>
+							<div class="fr closing">结 算</div>
+							<div class="fr total">合计：￥<span id="priceTotal">0.00</span></div>
+													
+						</div>
+
+					</div>
+
+					<!--当购物车没有内容时-->
+					<div class="noOrderLi">	
+						<div class="nullLi">
+							<img src="img/myShop/grayshopcart.png" alt="" />
+						</div>
+						<div class="nullContent">
+							<p>您的购物车是空的</p>
+							<a href="./homePage.html">
+								<input type="button" value="去首页看看"/>
+							</a>
+						</div>						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer"></div>
+	</body>
+	<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/pullDown.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/headAndFoot.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$('#shopPage_clothSize').html('尺码: ' + localStorage.clothSize);
+		$('#shopPage_clothColor').html('颜色: ' + localStorage.clothColor);
+		$('.count-input').val(localStorage.shopOfBuyNum);
+		var shopClick = true;  
+		var arrColor = [];    //存储选中的衣服颜色
+		var arrSize = [];    //存储选中的衣服尺码
+		var numofShop = [];   //存储选中衣服的购买数量
+		
+//		如果加入购物车的数据不是0,则执行动态添加操作
+		var clothSizes = [];   //存储衣服尺码的数组
+		var clothColors = [];   // 存储衣服颜色的数组
+		var shopOfNums = [];    //存储购买的数量
+		clothSizes = localStorage.clothSize.split('|');
+		clothColors = localStorage.clothColor.split('|');
+		shopOfNums = localStorage.shopOfBuyNum.split('|');
+		localStorage.shopOfnumhome = 0;  //存储购买条数，显示在头部的购物车中
+		for (var i = 0; i < clothSizes.length; i++) {
+			var tableTr = $('<tr class="tr"><td class="checkbox" style="width:200px;"><input  class="check-one check" type="checkbox" /><img style="vertical-align: middle;" src="img/goodsimg/small.jpg" alt=""/><span>海澜之家 衬衫</span></td><td class="goodsTd"><p id="shopPage_clothSize">尺码: '+ clothSizes[i] +'</p><p id="shopPage_clothColor">颜色：'+clothColors[i]+'</p> </td><td class="price">400.00</td><td class="count"><span class="reduce"></span><input class="count-input" type="text" value="'+shopOfNums[i]+'"/><span class="add">+</span></td><td class="subtotal">'+shopOfNums[i]*400+'.00</td><td class="operation"><span class="delete">删除</span></td></tr>')
+			if (localStorage.clothColor != '') {
+				$('.catbox').show();
+				$('.noOrderLi').hide();
+				$('.catbox tbody').before(tableTr);
+				localStorage.shopOfnumhome++;
+			}
+		}
+		
+		//选择物品所在的选择框，选择框中的信息存入到本地中
+					$('.check-one').click(function () {		
+						arrColor.push(clothColors[$('.check-one').index($(this))]);
+						arrSize.push(clothSizes[$('.check-one').index($(this))]);
+						numofShop.push(shopOfNums[$('.check-one').index($(this))]);
+//						
+//						console.log(arrSize);
+//						console.log(arrColor);
+//						console.log(numofShop);
+////						将选择的内容转换为字符串存储到本地中
+						localStorage.size = arrSize.join('|');
+						localStorage.color = arrColor.join('|');
+						localStorage.numofshop = numofShop.join('|');
+					});
+
+		
+		
+		
+		//点击结算
+		$('.closing').click(function () {
+							
+//			如果总金额为0,说明没有选择物品
+			if ($('#priceTotal').html() != 0.00) {
+//					console.log($('#cartTable tr').eq(0).attr('class'));
+					
+				
+				// 将总金额存储到本地中
+				localStorage.clothPrice = $('#priceTotal').html();
+				
+				// 将购买的商品数量存储到本地中
+				localStorage.clothNum = $('.count-input').val();	
+//				console.log(localStorage.clothNum);
+				location.href = './firmOrder.html';
+			}else{
+				alert('请选择商品！');
+			}
+			
+			
+		});
+		
+		
+		//点击删除商品，将解析的数组对应的下标元素删除，再将其他的元素转变为字符串，存在本地中
+		$('.delete').click(function () {
+//			点击删除,删除数组中对应的下标内容
+			clothSizes.splice($('.delete').index($(this)),1);
+			clothColors.splice($('.delete').index($(this)),1);
+			shopOfNums.splice($('.delete').index($(this)),1);
+			//新建数组接收删除后的数据
+			var cloths = clothSizes;
+			var clothc = clothColors;
+			var nums = shopOfNums;
+//			将删除后的数据转换为字符串,覆盖本地数据
+			localStorage.clothSize = cloths.join('|');
+			localStorage.clothColor = clothc.join('|')
+			localStorage.shopOfBuyNum = nums.join('|')
+//			如果本地中的衣服颜色为空时说明没有物品，显示 购物车为空
+			if (localStorage.clothColor == '') {
+				$('.noOrderLi').show();
+				$('.catbox').hide();
+			}
+		});
+		
+		
+		//点击全选删除,本地中的购买数据信息清空
+		$('#deleteAll').click(function () {
+			localStorage.clothSize = '';
+			localStorage.clothColor = '';
+			localStorage.shopOfBuyNum = '';
+			location.reload();
+		});
+//		console.log(localStorage);
+		
+	</script>
+	<script src="js/demo.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/pullDownJs.js" type="text/javascript" charset="utf-8"></script>
+</html>

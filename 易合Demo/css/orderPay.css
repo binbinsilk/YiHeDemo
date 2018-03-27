@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+}
+
+/*设置头部样式*/
+.shopOfTop{
+	width: 100%;
+	height: 169px;
+	margin-bottom: 25px;
+}
+/*和body宽度相同的外部wrap*/
+.shopOfWrap{
+	/*border:1px solid green;*/	
+}
+/*<!--中间部分宽1180px的div-->*/
+.shopOfWrapwrap{
+	width: 1180px;
+	margin: 0 auto;
+	border: 13px solid #D3D3D3;
+	/*height: 20px;*/
+}
+/*<!--中间的内容部分-->*/
+.shopOfCenterWrap{
+	width: 1110px;
+	bordeR:1px solid #D5D5D5;
+	margin: 40px auto;	
+	padding: 40px;
+}
+/*<!--图片和我的购物车导航-->*/
+.navShop{
+	border-bottom: 1px solid #D3D3D3;	
+	padding-bottom: 40px;
+}
+/*易和生活港图片设置*/
+.navShop div img{
+	height: 40px;
+	vertical-align: bottom;	
+}
+/*易和生活港div设置*/
+
+.navShop img{
+	/*float: left;*/
+	margin-left: -7px;
+	vertical-align: middle;
+}
+.navShop span{
+	float: right;
+	margin-top: 50px;
+	color:#999;
+	font-size: 20px;
+}
+
+
+
+/*应付金额*/
+
+.truePay p:first-child{
+	padding: 40px 0;
+	font-size: 16px;
+}
+.truePay p:first-child a{
+	font-size: 18px;
+	color:#F46B2B;
+}
+.truePay p:first-child span:last-child{
+	float: right;
+	font-size: 14px;
+}
+.truePay p:last-child{
+	font-size: 16px;
+	padding: 10px 0;
+	border-bottom: 1px solid #D3D3D3;
+}
+
+
+/*选择支付 方式*/
+.choosePay_ul{
+	list-style-type: none;
+	/*border-bottom:1px solid #D3D3D3;*/
+	padding: 40px 0;
+	
+}
+.choosePay_ul li{
+	display: inline-block;
+	padding: 0 20px;
+}
+.choosePay_ul li img{
+	vertical-align: middle;
+	border:1px solid gray;
+	padding: 10px 15px;
+	margin-left: 10px;
+	
+}
+.paybtnChangePage{
+	cursor: pointer;
+}
+.payBill{
+	padding: 60px 200px 60px 210px;
+    border: 1px solid #D5D5D5;
+}
+.payLeft{
+	display: inline-block;
+    vertical-align: middle;
+    margin-right: 140px;
+    /*border:1px solid red;*/
+    text-align: center;
+}
+.payRight{
+	display: inline-block;
+    vertical-align: middle;
+    margin-left: 140px;
+    text-align: center;
+}
+.payRight img{
+	padding-top: 10px;
+}
+.payLeft img{
+	padding: 20px 0;
+}
+.payLeft button{
+	font-size: 14px;
+	color:#fff;
+	background-color: #F46B2B;
+	border:0;
+	width: 175px;
+	height: 50px;
+	border-radius: 5px;
+}
+/*中间最底部的微信支付方式*/
+.wrapOfPay{
+	border:1px solid #D3D3D3;
+	width: 1110px;
+	height: 400px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.wrapOfPay .payLeft{
+	margin-top: 20px;
+	margin-right: 0px;
+	width: 350px;	
+}
+.wrapOfPay .payLeft img{
+	margin-left: -90px;
+}
+

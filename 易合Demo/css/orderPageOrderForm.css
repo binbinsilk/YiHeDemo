@@ -1,0 +1,232 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#orderPageOrderFormRight{
+	width: 986px;
+	border: 1px solid rgb(191, 191, 191);
+	/*border: 1px solid red;*/
+	height: 1940px;
+	background-color: rgb(255, 255, 255);
+}
+#orderPageOrderFormRightTop{
+	height: 56px;
+	border-bottom: 1px solid rgb(191, 191, 191);
+	line-height: 56px;
+	padding: 0 15px;
+}
+/*订单状态表头*/
+.OrderFormCondition{
+	/*border: 1px solid red;*/
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0;
+}
+/*状态*/
+.condition{
+	width: 100px;
+	border-right: 2px solid #999999;
+	padding-left: 20px;
+}
+/*状态明细*/
+.conditionTable{
+	width: 949px;
+	margin: 0 auto;
+	overflow: hidden;
+	color: #666;
+	font-size: 14px;
+	/*display: none;*/
+}
+.conditionTableTop{
+	height: 37px;
+	line-height: 37px;
+	background-color: #f2f2f2;
+	border: 1px solid rgb(191, 191, 191);
+	border-bottom: 0;
+}
+.conditionTableTop p{
+	display: inline-block;
+}
+.conditionTableUl{
+	list-style-type: none;
+	width: 652px;
+	border-right: 1px solid rgb(191, 191, 191);
+	border-left: 1px solid rgb(191, 191, 191);
+	float: left;
+	font-size: 12px;
+}
+.conditionTableUl li{
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 1px solid rgb(191, 191, 191);
+	align-items: center;
+	padding: 10px 0;
+	color: #999999;
+}
+.conditionTableRight{
+	float: right;
+	width: 295px;
+	height: 242px;
+	border-bottom: 1px solid rgb(191, 191, 191);
+	/*border: 1px solid blue;*/
+}
+/*订单金额*/
+.conditionTableRight1,
+.conditionTableRight2{
+	width: 145px;
+	height: 243px;
+	/*border: 1px solid red;*/
+	border-right: 1px solid rgb(191, 191, 191);
+	
+	text-align: center;
+}
+.conditionTableRight1{
+	float: left;
+	
+}
+.conditionTableRight1 p:first-child{
+	margin-top: 99px;
+}
+/*订单操作*/
+.conditionTableRight2{
+	float: right;
+}
+.conditionTableRight2 > div{
+	margin-top: 99px;
+}
+a{
+	color: #008de1;
+	text-decoration: none;
+}
+/*底部翻页器*/
+#goodsJudgeBottom{
+	/*border:3px solid saddlebrown;*/
+	min-width: 946px;
+	text-align: center;
+    font-size: 0;
+    margin: 20px 0;
+    color: #666;
+    display: flex;
+    align-items: flex-start;
+   justify-content: center;
+   /*display: none;*/
+}
+.goodsJudgeBottomBtn{
+	list-style-type: none;
+	text-align: center;
+	margin: 20px 0;
+	/*border:1px solid red;*/
+	overflow: hidden;
+	 display: inline-block;
+}
+.goodsJudgeBottomBtn li{
+	float: left;	 
+}
+/*留言导航页面 li里的a标签设置*/
+.goodsJudgeBottomBtn a{
+	text-decoration: none;
+	color:#666666;
+    border: 1px solid #D2D2D2;
+    border-right: 0;
+    /*border-bottom: 1px solid #D2D2D2;*/
+    font-size: 16px;	
+  	padding: 0 15px;
+    background-color: #FFF;
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+}
+/*首页按钮和尾页按钮的设置*/
+.goodsJudgeBottomBtn li:nth-child(1) a,.goodsJudgeBottomBtn li:last-child a{
+	color: #008BDD;
+    margin: 0 15px;
+    border-right: 1px solid #D2D2D2;
+}
+.goodsJudgeBottomBtn li:nth-last-of-type(2) a{
+    border-right: 1px solid #D2D2D2;
+}
+.goodsJudgeBottomBtn li:nth-child(6) a{
+    border-top:0;
+    border-bottom: 0;
+}
+/*设置输入页号跳转评论页*/
+.goodsJudgeBottmJump{
+	display: inline-block;
+	/*border:1px solid blue;*/
+	margin-left: 10px;
+	font-size: 16px;
+	margin-top: 20px;
+}
+.goodsJudgeBottmJump input[type=text]{
+	width: 30px;
+	height: 32px;
+	text-align: center;
+}
+.goodsJudgeBottomBtnLi:hover{
+	background-color: #008de1;
+	color: white;
+}
+
+
+
+/*如果没有订单*/
+#orderPageOrderFormRight1{
+	width: 986px;
+	border: 1px solid rgb(191, 191, 191);
+	/*border: 1px solid red;*/
+	height: 535px;
+	background-color: rgb(255, 255, 255);
+}
+#orderPageOrderFormRightTop{
+	height: 56px;
+	border-bottom: 1px solid rgb(191, 191, 191);
+	line-height: 56px;
+	padding: 0 15px;
+}
+/*订单状态表头*/
+.OrderFormCondition{
+	/*border: 1px solid red;*/
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0;
+}
+/*状态*/
+.condition{
+	width: 100px;
+	border-right: 2px solid #999999;
+	padding-left: 20px;
+}
+
+.orderPageOrderFormNull{
+	/*border: 1px solid red;*/
+	width: 349px;
+	height: 126px;
+	margin: 0 auto;
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.orderPageOrderFormNull a{
+	text-decoration: none;
+}
+.orderPageOrderFormNullRight{
+	/*border: 1px solid red;*/
+	width: 210px;
+	/*text-align: center;*/
+}
+.orderPageOrderFormNullRight p{
+	color: #acacac;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.orderPageOrderFormNullBtn{
+	text-align: center;
+	color: white;
+	background-color: #ec6a17;
+	width: 177px;
+	height: 47px;
+	border-radius: 5px;
+	line-height: 47px;
+	margin: 0 auto;
+	margin-top: 40px;
+}

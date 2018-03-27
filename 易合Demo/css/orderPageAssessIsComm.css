@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#orderPageAssessIsComRight{
+	width: 986px;
+	border: 1px solid rgb(191, 191, 191);
+	/*border: 1px solid red;*/
+	height: 663px;
+	background-color: rgb(255, 255, 255);
+}
+/*评价栏*/
+table{
+	width: 100%;
+}
+
+th{
+	font-size: 20px;
+	padding: 13px 10px;
+	border-bottom: 1px solid gainsboro;
+}
+td{
+	padding: 20px 10px;
+	border-bottom: 1px solid gainsboro;
+}
+a{
+	color: #008de1;
+}

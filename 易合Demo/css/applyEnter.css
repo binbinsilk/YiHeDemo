@@ -1,0 +1,149 @@
+			body{
+				background-color: #F2F2F2;
+			}
+			/*提交申请Wrap*/
+			#applyEnterWrap{
+				width: 1180px;
+				margin: 0 auto;
+				margin-bottom: 30px;
+				
+			}
+			/*您当前位置*/
+			#yourAddress{
+				padding: 20px 0;
+			}
+			/*申请入驻*/
+			.HLAhomeSpan{
+				color: #ec6a17;
+				cursor: pointer;
+			}
+			/*申请入驻信息*/
+			#applyData{
+				width: 1018px;
+				border: 1px solid #d3d3d3;
+				background-color: white;
+				padding: 80px;
+			}
+			#applyDataUl li{
+				list-style-type: none;
+				font-size: 18px;
+				line-height: 35px;
+				margin-bottom: 40px;
+			}
+			/*进度*/
+			.progressli{
+				position: relative;
+			}
+			.progressli p{
+				width: 740px;
+				position: absolute;
+				top: 5px;
+				left: 0;
+				display: flex;
+				justify-content: space-between;
+			}
+			.progressli p span{
+				display: inline-block;
+				width: 30%;
+				text-align: center;
+				font-weight: 600;
+			}
+			.progressli p span:first-child{
+				color: white;
+			}
+			#applyDataUl li:nth-child(2){
+				color: #858585;
+			}
+			#applyDataUl li:nth-child(8) span{
+				vertical-align: top;
+			}
+			.applyDataSpan1{
+				display: inline-block;
+				width: 10px;
+				color: red;
+			}
+			.applyDataSpan2{
+				display: inline-block;
+				width: 100px;
+			}
+			.applyData_radio1{
+				margin-right: 15px;
+				vertical-align: middle;
+			}
+			.applyData_radio2{
+				margin: 0 15px;
+				vertical-align: middle;
+			}
+			.applyDataInput{
+				width: 368px;
+				height: 27px;
+				padding: 3px 10px;
+			}
+			textarea{
+				width: 370px;
+				height: 130px;
+				resize : none;
+				padding: 3px 10px;
+				border: 1px solid #d3d3d3;
+			}
+			#applyDataUl li:nth-child(9){
+				height: 800px;
+				position: relative;
+			}
+			/*图片信息部分*/
+			#applyImgMessage{
+				position: absolute;
+				top: 0;
+				left: 120px;
+			}
+			#applyImgMessage li{
+				color: #999999;
+				font-size: 16px;
+			}
+			#uploadFaceWrap{
+				width: 460px;
+				display: flex;
+				justify-content: space-between;
+			}
+			.uploadFace{
+				width: 140px;
+				height: 140px;
+				margin: 30px 0;
+				background-color: #e4e4e4;
+				position: relative;
+			}
+			.uploadFace p {
+				width: 140px;
+				font-size: 16px;
+				height: 28px;
+				line-height: 28px;
+				text-align: center;
+				background-color: #747474;
+				color: white;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+			}
+			.uploadFace img{
+				margin-top: 26px;
+				margin-left: 40px;
+			}
+			.uploadFace input{
+				width: 140px;
+				height: 140px;
+				position: absolute;
+				top: 0;
+				left: 0;
+				opacity: 0;
+				cursor: pointer;
+			}
+			#applyImgMessage > p{
+				width: 170px;
+				height: 45px;
+				color: white;
+				line-height: 45px;
+				text-align: center;
+				border-radius: 5px;
+				background-color: #ec6a17;
+				cursor: pointer;
+			}

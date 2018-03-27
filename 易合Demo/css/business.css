@@ -1,0 +1,212 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+/*首部顶部*/
+#homePage_headTop{
+	height: 33px;
+	background-color: #eeeeee;
+	font-size: 12px;
+	color: #666666;
+}
+/*顶部a标签*/
+#homePage_headTop a{
+	color: #666666;
+	text-decoration: none;
+}
+
+/*顶部内容*/
+#homePage_headTopContent{
+	width: 1180px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0;
+}
+/*顶部ul*/
+#register_menu{
+	width: 20%;
+}
+/*顶部li*/
+#register_menu li{
+	list-style-type: none;
+	float: left;
+	padding:0 3%;
+	border-right: 2px solid #D3D3D3;
+}
+#register_menu li:last-child{
+	border-right:0;
+}
+#register_menu a:hover{
+	color:#FF6C00;
+}
+/*上部图片和会员登录div*/
+#leadLogin{
+	/*border:1px solid red;*/
+	width: 1180px;
+	margin: 0 auto;
+	padding: 25px 0;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.leadLogin_left{
+	border-right:1px solid #D3D3D3;
+	padding-right: 30px;
+}
+.leadLogin_right span{
+	padding:0 30px;
+	cursor: pointer;
+	font-size: 26px;
+	color:#666;
+}
+/*中间图片背景部分*/
+#register_body{
+	width: 100%;
+	background-color: #008DE1;
+	padding-bottom: 20px;
+	width: 100%;
+	min-width: 1180px;
+}
+#register_div{
+	width: 1180px;
+	height: 590px;
+	margin: 0 auto;
+	background: url(../img/leadlogin/business.png) no-repeat 200px top;
+	overflow: hidden;
+}
+/*用户注册 界面*/
+.register_user{
+	float: right;
+    margin: 40px 0;
+    width: 325px;
+    background: #fff;
+    padding: 20px 30px;
+}
+
+.register_user > p{
+	height: 30px;
+    line-height: 30px;
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    color: #999;
+}
+.register_user p a{
+	font-size: 14px;
+	color:#008CE1;
+	float: right;
+	height: 30px;
+	line-height: 43px;
+}
+.register_input{
+	position: relative;
+    height: 37px;
+    width: 100%;
+}
+/*手机号/密码/验证码输入框*/
+#inNumber,#inPass,#inreNum,#yanzheng{
+	border: 1px solid #d3d3d3;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3px 8px;
+    background: #f9f9f9;
+    color: #666;
+    height: 100%;
+	
+}
+.register_inputRightImg{
+	position: absolute;
+	top: 0;
+	right: 5px;
+	line-height: 40px;
+	display: none;
+}
+/*验证码*/
+.register_inputYan{
+	position: relative;
+    height: 37px;
+    width: 94px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.register_errorInput{
+	visibility: hidden;
+    line-height: 25px;
+    color: #f30;
+    font-size: 12px;
+    height: 25px;
+}
+.yanzhengPic{
+	height: 37px;
+	vertical-align: middle;
+}
+/*看不清,换一张*/
+.changeone{
+	line-height: 37px;
+    height: 37px;
+    color: #ff6c00;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.register_check{
+	margin-top: 10px;
+    height: 37px;
+    line-height: 37px;
+    font-size: 14px;
+    color: #666;
+}
+.register_check a:nth-child(3){
+	float: right;
+	color:#FF6C00;
+}
+
+.loginAndZhu{
+	margin: 15px 0;
+    text-align: center;
+}
+/*登录注册按钮*/
+.register_login{
+	display: inline-block;
+    margin: 0 20px;
+    height: 40px;
+    width: 120px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #EC6A17;
+}
+
+.register_copear{
+	width: 100%;
+    text-align: center;
+    margin-top: 35px;
+    position: relative;
+    border-top: 1px dashed #d3d3d3;
+}
+.register_copear span{
+	position: absolute;
+    left: 50%;
+    margin-left: -49px;
+    margin-top: -8px;
+    line-height: 16px;
+    padding: 0 2px;
+    background-color: #fff;
+    color: #666;
+    font-size: 16px;
+    display: inline-block;
+}
+.register_copear img{
+	display: inline-block;
+    margin: 35px 30px 0;
+    cursor: pointer;
+}

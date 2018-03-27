@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>底部</title>
+		<link rel="stylesheet" type="text/css" href="css/foot.css"/>
+	</head>
+	<body>
+		<!--底部-->
+		<div id="foot">
+			<!--底部上部-->
+			<div id="footTop">
+				<ul>
+					<li>
+						<a class="aToZhengpin" style="cursor: pointer;">
+							<img src="img/foot/zhengPin.png"/>
+							正品保障
+						</a>
+					</li>
+					<li>
+						<img src="img/foot/zhuiZong.png"/>
+						全程追踪
+					</li>
+					<li>
+						<img src="img/foot/keHu.png"/>
+						客户监督
+					</li>
+					<li>
+						<img src="img/foot/shouHou.png"/>
+						售后无忧
+					</li>
+					<li>
+						<img src="img/foot/zhunShi.png"/>
+						准时到达
+					</li>
+				</ul>
+			</div>
+			<!--底部中部-->
+			<div id="footMiddle">
+				<div id="footMiddleWrap">
+					<a href="./homePage.html">
+						<img src="img/foot/yiLifeLogo.png"/>
+					</a>
+					<!--二维码-->
+					<div id="footQRCodes">
+						<div class="QRCode">
+							<img src="img/foot/erWeiMa.png"/>					
+							<p>
+								<img src="img/foot/iPhone.png"/>APP下载
+							</p>
+						</div>
+						<div class="QRCode">
+							<img src="img/foot/erWeiMa.png"/>					
+							<p>
+								<img src="img/foot/weChat.png"/>官方微信
+							</p>
+						</div>
+					</div>
+					<!--详细说明-->
+					<div id="footMiddleDetial">
+						<div id="footMiddle_uls">
+							<ul>
+								<li>关于易和</li>
+								<li><a class="aToNewUser">新用户注册</a></li>
+								<li><a href="">在线下单</a></li>
+								<li><a href="">支付方式</a></li>
+							</ul>
+							<ul>
+								<li>配送说明</li>
+								<li><a href="./notSearch.html">运费说明</a></li>
+								<li><a >配送方式</a></li>
+								<li><a >发票说明</a></li>
+							</ul>
+							<ul>
+								<li>售后服务</li>
+								<li><a >退换货规则</a></li>
+								<li><a >服务保障承诺</a></li>
+								<li><a >验货与签收</a></li>
+							</ul>
+							<ul>
+								<li>加盟易合</li>
+								<li><a href="">加盟条款</a></li>
+								<li><a href="">公司简介</a></li>
+								<li><a href="">服务协议</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--底部下部分-->
+			<div id="footBottom">
+				<p>版权所有 © 2016易和生活港 保留所有权利 | 沪ICP备：12042163</p>
+				<span>易和生活 众享品质</span>
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+//		点击正品保障
+		$('.aToZhengpin').click(function () {
+			window.parent.location.href = './realForSure.html';
+		});
+		//点击新用户注册
+		$('.aToNewUser').click(function () {
+			window.parent.location.href = './aboutUs.html';
+		});
+	</script>
+</html>

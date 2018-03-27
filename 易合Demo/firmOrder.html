@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>易和生活港 | 确认订单</title>
+		<link rel="stylesheet" type="text/css" href="css/firmOrder.css"/>
+		<link rel="stylesheet" href="css/pullDown.css" />
+	</head>
+	<body>
+		<div class="grayWrap"></div>
+		<!--头部导航栏引入-->
+		<div id="div1">
+			<!--<iframe src="head.html" width="100%" height="169px" frameborder="0" scrolling="no"></iframe>-->
+		</div>	
+		<!--下拉菜单-->
+		<div id="selectMenu">
+			<div id="pullDown">
+				<!--行业分类-->
+				<span id="tradeClassify">
+					<div>
+						行业分类
+						<img src="img/homePage/whiteJianTou.png"/>
+					</div>
+				</span>
+				<!--行业分类下拉内容-->
+				<div id="tradeClassify_pullDown">
+					<!--左侧分类-->
+					<ul id="pullDownLeft">
+						<li>
+							服装超市
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							建材装修
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							休闲娱乐
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							生活服务
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							3C市场
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							丽人
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+				      		本地生活
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							购物
+				      		<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+			 				电子数码
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+					</ul>
+					<!--详细内容-->
+					<div id="pullDownRight">
+						<ul>
+							<li>
+								<a href="./HLAhome.html" style="text-decoration: none;color:white">海澜之家</a>
+							</li>
+						    <li>Adidas</li>
+						</ul>
+						<ul>
+							<li>全友家私</li>
+							<li>居然之家</li>
+						</ul>
+						<ul>
+							<li>steam</li>
+							<li>育碧</li>
+						</ul>
+						<ul>
+							<li>美团外卖</li>
+							<li>百度糯米</li>
+						</ul>
+						<ul>
+							<li>iphone</li>
+							<li>华为</li>
+						</ul>
+						<ul>
+				       		<li>春纪</li>
+							<li>巴黎欧莱雅</li>
+						</ul>
+						<ul>
+							<li>同城二手</li>
+							<li>小时工</li>
+						</ul>
+						<ul>
+							<li>淘宝</li>
+							<li>京东</li>
+						</ul>
+						<ul>
+							<li>佳能</li>
+							<li>索尼</li>
+						</ul>
+					</div>
+				</div>
+				
+				<!--上方选项-->
+				<ul id="optionsMenu">
+					<li><a href="./homePage.html">首页</a></li>
+					<li><a href="./choiceShop.html">精选商家</a></li>
+					<li><a href="./todayOnSale.html">今日特价</a></li>
+					<li><a href="./pointMall.html">积分商城</a></li>
+					<li><a href="./joinYH.html">加入易和</a></li>
+					<li>
+						<a href="###" id="onlineService">在线客服</a>
+					</li>
+				</ul>
+				<!--在线客服下拉内容-->
+				<div id="serviceContent">
+					<img src="img/homePage/keFuBack.png"/>
+					<div id="QQServices">
+						<div class="QQService">
+							<img src="img/homePage/QQlogo.png"/>
+							QQ客服1
+						</div>
+						<div class="QQService">
+							<img src="img/homePage/QQlogo.png"/>
+							QQ客服2
+						</div>
+						<div class="QQService">
+							<img src="img/homePage/QQlogo.png"/>
+							QQ客服3
+						</div>
+					</div>
+					<img src="img/homePage/QRCode.png" id="serviceCode"/>
+				</div>
+			</div>
+		</div>
+	
+		<!--中间部分外部的wrap-->
+		<div class="shopOfWrap">	
+			<!--中间部分宽1180px的div-->
+				<!--中间的内容部分-->
+				<div class="shopOfCenterWrap">
+					<!--图片和我的购物车导航-->
+					<div class="navShop">
+						<a href="" style="text-decoration: none;">
+							<img src="img/myShop/yiheimg.png" alt="" />
+						</a>
+						<div style="display: inline-block;">
+							<img src="img/myShop/shop-bg.png" alt="" />
+							<span class="myShopspan1">我的购物车</span>
+							<img src="img/myShop/shopbg1.png" alt=""/>
+							<span class="myShopspan2">确认订单信息</span>
+							<img src="img/myShop/shop-bg0.png" alt="" />		
+							<span class="myShopspan3">订单提交成功</span>
+						</div>
+						
+					</div>
+					<!--收货人信息和添加新地址按钮-->
+					<div class="shopcart">
+						<span>收货人信息</span>
+						<span class="addNewAdress">使用新地址</span>
+					</div>
+					<!--存储的地址条数-->
+					<ul class="orderNums" style="margin-bottom: 10px;">
+						<!--<li>
+							<input type="radio" name="choose" value="1"/>
+							<span>但小兵 北京 北京市 昌平区 天通苑明天第一城4号楼101 13566995478 固定电话010-21541589</span>
+							<span>默认地址</span>
+							<a href="###">删除</a>
+							<a href="##">修改</a>
+						</li>-->						
+					</ul>
+					<span id="shouqi">收起地址
+						<img src="img/shouqi.png" alt="" />
+					</span>
+					<span id="zhankai">展开其他地址
+						<img src="img/zhankai.png"/>
+					</span>
+					
+					
+					
+					<!--没有收货地址显示的填写地址页面-->
+					<div class="shopcart2">
+						<span>收货人信息</span>
+					</div>							
+						<!--填写地址下部-->
+					<div id="firm">
+						<!--收货人详细信息-->
+						<ul id="firmOrder_2Ul">
+							<li>
+								<span style="margin-left: -12px;color: #ec6a17;">*</span>
+								<span style="margin-left: -3px">收货人姓名:</span>
+								<input class="nameOfGetGoods" type="text" value="" style="width:331px; height: 35px;margin-left: 17px;" />
+							</li>
+							<li>
+								<div  class="span1" >
+									<span style="color: #ec6a17;">*</span>
+									<span>所在地区:</span>
+									<select id="s_province" name="s_province" style="background: white;font-size: 14px;height: 28px;" ></select>  
+								    <select id="s_city" name="s_city" style="background: white;font-size: 14px;height: 28px;"></select>  
+								    <select id="s_county" name="s_county" style="background: white;font-size: 14px;height: 28px;"></select>
+								</div>
+							</li>
+							<li>
+								<span style="color: #ec6a17;">*</span>
+								<span>详细地址:</span>
+								<input class="detailAdress" type="text" value="" style="width:460px; height: 35px;margin-left: 20px;" />
+							</li>
+							<li>
+								<span style="color: #ec6a17;">*</span>
+								<span>联系电话:</span>
+								<input class="telephone" type="text" value="" style="width:150px;margin-left: 20px;height: 35px;" />
+								<span style="margin-left: 8px;">或固定电话:</span>
+								<input class="telephoneFix_before" type="text" name="" id="" value="" style="width:50px;height: 35px;" />
+								<span>-</span>
+								<input class="telephoneFix" type="text" name="" id="" value="" style="width:125px;height: 35px;" />
+							</li>
+							<li>
+								<!--设置常用地址-->
+								<span class="usuallAdress" style="margin-left: 100px;">确认并设为默认地址</span>
+							</li>
+						</ul>
+						
+					</div>
+					
+					
+					<!--点击使用新地址弹出的添加地址框-->
+					<div id="orderPageOfCenter">
+						<div id="orderPageOfCenterRight">
+							<div id="orderPageOfCenterRightTop2">
+								<span class="orderPageSpanTop">添加新地址</span>
+							</div>
+							<!--填写地址下部-->
+							<div id="orderPageOfCenterRightBottom2">
+								<ul id="orderPageOfCenterRightBottom2Ul">
+							<li>
+								<span style="margin-left: -12px;color: #ec6a17;">*</span>
+								<span style="margin-left: -3px">收货人姓名:</span>
+								<input class="nameOfGetGoods" type="text" value="" style="width:331px; height: 35px;margin-left: 17px;" />
+							</li>
+							<li>
+								<div  class="span1" >
+									<span style="color: #ec6a17;">*</span>
+									<span>所在地区:</span>						
+									
+									<select  id="s_province"  name="s_province1" style="background: white;font-size: 14px;height: 28px;" ></select>  
+								    <select id="s_city"  name="s_city1" style="background: white;font-size: 14px;height: 28px;"></select>  
+								    <select id="s_county"  name="s_county1" style="background: white;font-size: 14px;height: 28px;"></select>
+								</div>
+							</li>
+							<li>
+								<span style="color: #ec6a17;">*</span>
+								<span>详细地址:</span>
+								<input class="detailAdress" type="text" value="" style="width:460px; height: 35px;margin-left: 20px;" />
+							</li>
+							<li>
+								<span style="color: #ec6a17;">*</span>
+								<span>联系电话:</span>
+								<input class="telephone" type="text" value="" style="width:150px;margin-left: 20px;height: 35px;" />
+								<span style="margin-left: 8px;">或固定电话:</span>
+								<input class="telephoneFix_before" type="text" name="" id="" value="" style="width:50px;height: 35px;" />
+								<span>-</span>
+								<input class="telephoneFix" type="text" name="" id="" value="" style="width:125px;height: 35px;" />
+							</li>
+							<li>
+								<!--设置常用地址-->
+								<input class="shezhiRadio" type="radio" name="" value="" style="margin-left: 100px;"/><span style="margin-left: 10px;">设置常用地址</span>
+							</li>
+						</ul>
+						
+
+						<div class="orderPageOfCenterRightBottom2Btn1">
+							<span class="returnBack">返回</span>
+							<span class="doit">保存</span>
+						</div>
+					</div>
+						</div>
+					</div>
+			
+					
+					<p class="goodsDetailDiv">商品信息</p>
+					<!-- 加入购物车的物品-->
+					<div class="catbox" style="margin-top: 20px; width: 100%;">
+						<!--动态添加的内容--> 
+						<table id="cartTable">
+							<thead>
+								<tr>
+									<th>
+										<label>
+											 <span>海澜之家旗舰店</span>
+										</label>
+									</th>
+									<th>规格</th>
+									<th>单价</th>
+									<th>数量</th>
+									<th>金额</th>
+									<!--<th>操作</th>-->
+								</tr>
+							</thead>
+							<tbody>
+								<!--<tr>
+									<td class="checkbox" style="width:200px;">										
+										<img style="vertical-align: middle;" src="img/goodsimg/small.jpg" alt=""/>
+										<span>海澜之家 衬衫</span>
+									</td>
+									<td class="goods">
+										<p>版型：休闲</p>
+										<p>颜色：魅力黑</p> 
+									</td>
+									<td class="price">400.00</td>
+									<td class="count">
+										<span class="count-input">1</span>
+									</td>
+									<td class="subtotal">400.00</td>
+								</tr>-->
+								
+							</tbody>
+							
+							<!--底部结算金额显示-->
+							<tfoot>
+								<tr>
+									<td></td>
+									<td class="chooseBtn">
+										<input type="button" value="到店消费"/>
+										<input type="button" value="商家配送"/>
+									</td>
+									<td class="yunfei">运费<span>￥0.00</span></td>
+									<td class="jine">商品金额<span>￥0.00</span></td>
+									<td class="heji">合计<span>￥0.00</span></td>
+								</tr>
+							</tfoot>
+						</table>										
+					
+					</div>
+					
+						
+					<!--开票信息-->
+					<div class="goodsBill">
+						<p>开票信息</p>
+						<p>
+							<input type="radio" name="bill" value="1"/>不需要
+							<input type="radio" name="bill" value="2"/>个人
+							<input type="radio" name="bill" value="3"/>单位
+						</p>
+						<p>
+							发票抬头：
+							<input type="text" />
+							<span>*</span>请填写后认真核对发票
+						</p>
+						<p>添加订单备注</p>
+					</div>
+					<input class="writeInWords" type="text" placeholder="限45个字，请填写有关商品、支付、发票等信息"/>
+					<div class="countPlus">
+						<p>总计：<span class="countMoney">￥108.0</span></p>
+					</div>
+					<div class="youhui">
+						<p>使用积分抵扣(您有1254积分) <span>1000</span> <span>-￥10.00</span></p>
+					</div>
+						<div class="bottomOeder">
+							<div class="realPay">
+								应付金额: <span style="color: #F46B2B;">￥</span><span class="firmOrderPayMoney">0.00</span>
+							</div>
+							<div class="billChangefen">
+								订单完成后可获得积分：<span>￥30.9</span>
+							</div>
+							<input class="upBillBtn" type="button" value="提交订单"/>
+						</div>				
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer"></div>
+	</body>
+	<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/pullDown.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/firmOrder.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/area.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">_init_area();</script>
+	<script src="js/headAndFoot.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/pullDownJs.js" type="text/javascript" charset="utf-8"></script>
+</html>

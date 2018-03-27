@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>易和生活港 | 关于我们</title>
+		<link rel="stylesheet" type="text/css" href="css/pullDown.css"/>
+		<style type="text/css">
+		body{
+			background-color: #F2F2F2;
+		}
+			/*您当前位置*/
+			#yourAddress{
+				width: 1180px;
+				margin: 0 auto;
+				padding: 20px 0;
+			}
+			/*申请入驻*/
+			.HLAhomeSpan{
+				color: #ec6a17;
+				cursor: pointer;
+			}
+			#aboutUsWrap{
+				width: 1180px;
+				margin: 0 auto 30px;
+				display: flex;
+				justify-content: space-between;
+			}
+			#aboutUsList{
+				width: 175px;
+				height: 660px;
+				background-color: white;
+				border: 1px solid #D3D3D3;
+			}
+			#aboutUsList div{
+				width: 145px;
+				height: 28px;
+				padding: 15px;
+				text-align: center;
+				border-bottom:  1px solid #D3D3D3;
+			}
+			#aboutUsList div img{
+				vertical-align: bottom;
+				margin-right: 5px;
+			}
+			#aboutUsList ul{
+				padding: 10px;
+				margin-top: 30px;
+			}
+			#aboutUsList li{
+				list-style-type: none;
+				text-align: left;
+				margin-bottom: 20px;
+				position: relative;
+				font-size: 14px;
+				color: #666;
+				cursor: pointer;
+			}
+			#aboutUsList li img{
+				position: absolute;
+				top: 5px;
+				right: 20px;
+			}
+			#aboutUsList li h4{
+				font-size: 18px;
+			}
+			#newUserLogin{
+				width: 902px;
+				padding: 60px 40px;
+				background-color: white;
+				border: 1px solid #D3D3D3;
+			}
+			#newUserLogin h1{
+				text-align: center;
+				margin-bottom: 40px;
+			}
+			#newUserLogin span{
+				margin-left: 220px;
+				color: #999;
+				font-size: 14px;
+			}
+			#newUserLogin p{
+				text-indent: 2em;
+				font-size: 14px;
+				margin-top: 40px;
+				line-height: 2em;
+			}
+			#newUserLogin img{
+				margin-top: 40px;
+			}
+		</style>
+	</head>
+	<body>
+		<!--首部-->
+		<div id="div1"></div>
+		<!--<iframe src="head.html" width="100%" height="169px" scrolling="no" frameborder="0"></iframe>-->
+		<!--下拉-->
+		<div id="selectMenu">
+			<div id="pullDown">
+				<!--行业分类-->
+				<span id="tradeClassify">
+					<div>
+						行业分类
+						<img src="img/homePage/whiteJianTou.png"/>
+					</div>
+				</span>
+				<!--行业分类下拉内容-->
+				<div id="tradeClassify_pullDown">
+					<!--左侧分类-->
+					<ul id="pullDownLeft">
+						<li>
+							服装超市
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							建材装修
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							休闲娱乐
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							生活服务
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							3C市场
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							丽人
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+				      		本地生活
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							购物
+				      		<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+			 				电子数码
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+					</ul>
+					<!--详细内容-->
+					<div id="pullDownRight">
+						<ul>
+							<li>
+								<a href="./HLAhome.html" style="text-decoration: none;color:white">海澜之家</a>
+							</li>
+						    <li>Adidas</li>
+						</ul>
+						<ul>
+							<li>全友家私</li>
+							<li>居然之家</li>
+						</ul>
+						<ul>
+							<li>steam</li>
+							<li>育碧</li>
+						</ul>
+						<ul>
+							<li>美团外卖</li>
+							<li>百度糯米</li>
+						</ul>
+						<ul>
+							<li>iphone</li>
+							<li>华为</li>
+						</ul>
+						<ul>
+				       		<li>春纪</li>
+							<li>巴黎欧莱雅</li>
+						</ul>
+						<ul>
+							<li>同城二手</li>
+							<li>小时工</li>
+						</ul>
+						<ul>
+							<li>淘宝</li>
+							<li>京东</li>
+						</ul>
+						<ul>
+							<li>佳能</li>
+							<li>索尼</li>
+						</ul>
+					</div>
+				</div>
+				
+				<!--上方选项-->
+				<ul id="optionsMenu">
+					<li><a href="./homePage.html">首页</a></li>
+					<li><a href="./choiceShop.html">精选商家</a></li>
+					<li><a href="./todayOnSale.html">今日特价</a></li>
+					<li><a href="./pointMall.html">积分商城</a></li>
+					<li><a href="./joinYH.html">加入易和</a></li>
+					<li>
+						<a href="###" id="onlineService">在线客服</a>
+					</li>
+				</ul>
+				<!--在线客服下拉内容-->
+				<div id="serviceContent">
+					<img src="img/homePage/keFuBack.png"/>
+					<div id="QQServices">
+						<div class="QQService">
+							<img src="img/homePage/QQlogo.png"/>
+							QQ客服1
+						</div>
+						<div class="QQService">
+							<img src="img/homePage/QQlogo.png"/>
+							QQ客服2
+						</div>
+						<div class="QQService">
+							<img src="img/homePage/QQlogo.png"/>
+							QQ客服3
+						</div>
+					</div>
+					<img src="img/homePage/QRCode.png" id="serviceCode"/>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div id="yourAddress">
+			<span>您当前的位置: &nbsp;关于易和 > <span class="HLAhomeSpan">新用户注册</span></span>
+		</div>
+		<div id="aboutUsWrap">
+			<div id="aboutUsList">
+				<div>
+					<img src="img/homePage/myYH.png"/>
+					易和商城
+				</div>
+				<ul>
+					<li>
+						<h4>关于易和</h4>
+						<img src="img/homePage/rightJiaoTouGray.png"/>
+					</li>
+					<li>新用户注册</li>
+					<li>在线下单</li>
+					<li>支付方式</li>
+					<li>
+						<h4>配送方式</h4>
+						<img src="img/homePage/rightJiaoTouGray.png"/>
+					</li>
+					<li>运费说明</li>
+					<li>配送方式</li>
+					<li>发票说明</li>
+					<li>
+						<h4>售后服务</h4>
+						<img src="img/homePage/rightJiaoTouGray.png"/>
+					</li>
+					<li>退换货规则</li>
+					<li>服务保障承诺</li>
+					<li>验货与签收</li>
+					<li>
+						<h4>加盟易和</h4>
+						<img src="img/homePage/rightJiaoTouGray.png"/> √           
+					</li>
+					<li>加盟条款</li>
+					<li>公司简介</li>
+					<li>服务协议</li>
+				</ul>
+			</div>
+			<div id="newUserLogin">
+				<h1>新用户注册</h1>
+				<span>分类: 关于易和</span>
+				<span>日期: 2015年9月21日</span>
+				<p>我们的梦想是为全国 14 亿人民都能享用到安全和高品质的新鲜食材。是美国，澳大利亚，新西兰，
+					以色列和西班牙领事馆农业部和商务部的指定食材合作推广伙伴，有美国 Sunkist，新西兰 Zespri，
+					澳大利亚 MFC，以色列 Jaffa等合作品牌。每年从全球五大洲和二十多个国家进口和销售超过 1000 个
+					集装柜的水果和食品。同时，还致力于发展国内高品质的食材，我们和全国各地优质农场建立直联合作，
+					并为此开发了和建立了完善的水果身份认证和溯源系统，确保食材的信息透明和安全。
+				</p>
+				<p>
+					管理团队平均年龄 36 岁，员工平均年龄 26 岁，公司信奉平等公开民主的管理文化，每一个员工都有表
+					达自己建议和主张的权利。加入和我们一起开拓全新的水果文化，创立健康的食材品牌，共同分享高速增
+					长的鲜果食品市场，和公司共同成长为行业顶尖的人才。
+				</p>
+				<img src="img/applyEnter/aboutUsSmall.png"/>
+				<p>我们的梦想是为全国 14 亿人民都能享用到安全和高品质的新鲜食材。是美国，澳大利亚，新西兰，
+					以色列和西班牙领事馆农业部和商务部的指定食材合作推广伙伴，有美国 Sunkist，新西兰 Zespri，
+					澳大利亚 MFC，以色列 Jaffa等合作品牌。每年从全球五大洲和二十多个国家进口和销售超过 1000 个
+					集装柜的水果和食品。同时，还致力于发展国内高品质的食材，我们和全国各地优质农场建立直联合作，
+					并为此开发了和建立了完善的水果身份认证和溯源系统，确保食材的信息透明和安全。
+				</p>
+				<p>
+					管理团队平均年龄 36 岁，员工平均年龄 26 岁，公司信奉平等公开民主的管理文化，每一个员工都有表
+					达自己建议和主张的权利。加入和我们一起开拓全新的水果文化，创立健康的食材品牌，共同分享高速增
+					长的鲜果食品市场，和公司共同成长为行业顶尖的人才。
+				</p>
+				<img src="img/applyEnter/aboutUsSmall.png"/>
+				<img src="img/applyEnter/aboutUsSmall.png"/>
+				<p>我们的梦想是为全国 14 亿人民都能享用到安全和高品质的新鲜食材。是美国，澳大利亚，新西兰，
+					以色列和西班牙领事馆农业部和商务部的指定食材合作推广伙伴，有美国 Sunkist，新西兰 Zespri，
+					澳大利亚 MFC，以色列 Jaffa等合作品牌。每年从全球五大洲和二十多个国家进口和销售超过 1000 个
+					集装柜的水果和食品。同时，还致力于发展国内高品质的食材，我们和全国各地优质农场建立直联合作，
+					并为此开发了和建立了完善的水果身份认证和溯源系统，确保食材的信息透明和安全。
+				</p>
+				<p>
+					管理团队平均年龄 36 岁，员工平均年龄 26 岁，公司信奉平等公开民主的管理文化，每一个员工都有表
+					达自己建议和主张的权利。加入和我们一起开拓全新的水果文化，创立健康的食材品牌，共同分享高速增
+					长的鲜果食品市场，和公司共同成长为行业顶尖的人才。
+				</p>
+			</div>
+		</div>
+		<div class="footer">
+			<!--<iframe src="foot.html" width="100%" height="436px" scrolling="no" frameborder="0"></iframe>-->
+		</div>
+	</body>
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/pullDown.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/headAndFoot.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/pullDownJs.js" type="text/javascript" charset="utf-8"></script>
+</html>

@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+}
+/*设置头部样式*/
+.shopOfTop{
+	width: 100%;
+	height: 169px;
+	margin-bottom: 25px;
+}
+/*和body宽度相同的外部wrap*/
+.shopOfWrap{
+	/*border:1px solid green;*/	
+}
+/*<!--中间部分宽1180px的div-->*/
+.shopOfWrapwrap{
+	width: 1180px;
+	margin: 0 auto;
+	border: 13px solid #D3D3D3;
+	/*height: 20px;*/
+}
+/*<!--中间的内容部分-->*/
+.shopOfCenterWrap{
+	width: 1110px;
+	bordeR:1px solid #D5D5D5;
+	margin: 40px auto;	
+	padding: 40px;
+}
+/*<!--图片和我的购物车导航-->*/
+.navShop{
+	border-bottom: 1px solid #D3D3D3;	
+	padding-bottom: 40px;
+}
+/*易和生活港图片设置*/
+.navShop div img{
+	height: 40px;
+	vertical-align: bottom;	
+}
+/*易和生活港div设置*/
+.navShop div{
+	position: relative;
+	margin-left: 167px;
+	font-size: 20px;
+}
+.navShop>div>img{
+	float: left;
+	margin-left: -7px;
+}
+/*字体布局*/
+.myShopspan1,.myShopspan2,.myShopspan3{
+	position: absolute;
+	top: 10px;
+}
+.myShopspan1{
+	left: 50px;
+	color:white;
+}
+.myShopspan2{
+	left: 270px;
+	
+}
+.myShopspan3{
+	left: 510px;
+}
+/*<!--购物车图标清单-->*/
+.shopcart{
+	padding: 40px 0 20px 0;
+	border-bottom: 1px solid #D3D3D3;
+	font-size: 14px;
+}
+.shopcart img{
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+/*购物车没有内容时显示的页面*/
+.noOrderLi{
+	/*border:1px solid red;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 180px 0;
+	font-size: 17px;
+	border-bottom: 1px solid #D3D3D3;
+	/*display: none;*/
+}
+/*灰色购物车图片*/
+.nullLi{
+	margin-right: 25px;
+}
+/*文字和按钮外的div*/
+.nullContent{
+	margin-left: 25px;
+}
+/*按钮样式设置*/
+.nullContent input{
+	width: 170px;
+	height: 45px;
+	background-color: #ec6a17;
+	border-radius: 5px;
+	border-width: 0px;
+	font-size: 17px;
+	color:white;
+	margin-top: 30px;
+}
+.catbox{
+	display: none;
+}

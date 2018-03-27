@@ -1,0 +1,198 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#orderPageMyIntegralRight {
+	width: 986px;
+	border: 1px solid #f2f2f2;
+	/*border: 1px solid red;*/
+	height: 720px;
+	background-color: rgb(255, 255, 255);
+	/*display: none;*/
+}
+
+#orderPageMyIntegralRightTop {
+	height: 56px;
+	line-height: 56px;
+	border-bottom: 1px solid #f2f2f2;
+	padding: 0 21px;
+}
+
+/*头部信息*/
+
+.orderPageMyIntegralRightBottomTop {
+	padding: 20px 0;
+}
+
+.orderPageMyIntegralRightBottomTop div {
+	/*border:1px solid red;*/
+	display: inline-block;
+}
+
+.MyIntegralD1,
+.MyIntegralD2 {
+	width: 141px;
+}
+
+.MyIntegralD1 {
+	margin-left: 20px;
+}
+
+.MyIntegralD2 {
+	margin-left: 64px;
+}
+
+.MyIntegralD3 {
+	margin-left: 530px;
+	cursor: pointer;
+}
+
+
+/*积分详情*/
+
+.orderPageMyIntegralRightBottomBot {
+	width: 945px;
+	border: 1px solid #f2f2f2;
+	margin: 0 auto;
+}
+
+.MyIntegralRightTab {
+	width: 943px;
+}
+
+tr,
+th {
+	text-align: center;
+	color: black;
+}
+
+tr {
+	height: 45px;
+	border-bottom: 1px solid #f2f2f2;
+	color: #666666;
+}
+
+td {
+	width: 315px;
+}
+
+
+/*翻页器插件*/
+
+.PageTurn,a {
+	text-decoration: none;
+}
+
+.PageTurn,a:hover {
+	text-decoration: none;
+}
+
+.tcdPageCode {
+	padding: 15px 20px;
+	text-align: left;
+	color: #ccc;
+}
+
+.tcdPageCode a {
+	display: inline-block;
+	color: #428bca;
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 10px;
+	border: 1px solid #ddd;
+	margin: 0 2px;
+	border-radius: 4px;
+	vertical-align: middle;
+}
+
+.tcdPageCode a:hover {
+	text-decoration: none;
+	border: 1px solid #428bca;
+}
+
+.tcdPageCode span.current {
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 10px;
+	margin: 0 2px;
+	color: #fff;
+	background-color: #428bca;
+	border: 1px solid #428bca;
+	border-radius: 4px;
+	vertical-align: middle;
+}
+
+.tcdPageCode span.disabled {
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 10px;
+	margin: 0 2px;
+	color: #bfbfbf;
+	background: #f2f2f2;
+	border: 1px solid #bfbfbf;
+	border-radius: 4px;
+	vertical-align: middle;
+}
+/*翻页器*/
+.PageTurn{
+	/*border: 1px solid red;*/
+	width: 920px;
+	margin: 20px auto;
+}
+.PageTurnRight{
+	/*border: 1px solid red;*/
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 20px;
+	width: 400px;
+}
+.PageTurnRight span{
+	padding: 10px 20px;
+	/*border: 1px solid red;*/
+}
+/*兑换记录*/
+#orderPageMyIntegralRight1{
+	width: 986px;
+	/*border: 1px solid #f2f2f2;*/
+	/*border: 1px solid red;*/
+	height: 700px;
+	background-color: rgb(255, 255, 255);
+	display: none;
+}
+#orderPageMyIntegralRightTop1{
+	height: 56px;
+	/*line-height: 56px;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #f2f2f2;
+	padding: 0 21px;
+}
+.MyIntegralRightTab1{
+	width: 943px;
+	margin: 0px auto;
+	margin-top: 20px;
+}
+.PageTurn1{
+	width:860px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

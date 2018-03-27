@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*1*/
+#orderPageDataCenterRight1{
+	width: 986px;
+	border: 1px solid rgb(191, 191, 191);
+	/*border: 1px solid red;*/
+	height: 535px;
+	background-color: rgb(255, 255, 255);
+	display: block;
+}
+.orderPageDataCenterRight1Top,
+.orderPageDataCenterRight2Top,
+.orderPageDataCenterRight3Top,
+.orderPageDataCenterRight4Top{
+	border-bottom: 1px solid #d3d3d3;
+	height: 56px;
+	line-height: 56px;
+}
+.orderPageDataSpanTop{
+	margin-left: 20px;
+	color: #008de1;
+}
+
+#orderPageDataCenterRight1BottomUl{
+	list-style-type: none;
+	/*border: 1px solid red;*/
+	height: 253px;
+	margin-left: 60px;
+}
+#orderPageDataCenterRight1BottomUl li{
+	/*border: 1px solid red;*/
+	padding: 13px 0 13px 0;
+}
+#orderPageDataCenterRight1BottomUl select{
+	height: 38px;
+	width: 141px;
+	font-size: 19px;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+.orderPageDataCenterRight1BottomBtn{
+	width: 173px;
+	height: 47px;
+	text-align: center;
+	line-height: 47px;
+	background-color: #ec6a17;
+	color: white;
+	margin-left: 115px;
+	margin-top: 38px;
+	border-radius: 5px;
+}
+/*换帮手机1*/
+#orderPageDataCenterRight2{
+	width: 986px;
+	border: 1px solid rgb(191, 191, 191);
+	/*border: 1px solid red;*/
+	height: 535px;
+	background-color: rgb(255, 255, 255);
+	display:none;
+}
+.orderPageDataCenterRight2Bottom,
+.orderPageDataCenterRight3Bottom,
+.orderPageDataCenterRight4Bottom{
+	/*border: 1px solid red;*/
+	height: 479px;
+}
+.orderPageDataCenterRight2BottomUl,
+.orderPageDataCenterRight3BottomUl,
+.orderPageDataCenterRight4BottomUl{
+	/*border: 1px  solid red;*/
+	padding-top: 30px;
+	margin-left: 20px;
+	list-style-type: none;
+}
+.orderPageDataCenterRight2BottomUl li,
+.orderPageDataCenterRight3BottomUl li,
+.orderPageDataCenterRight4BottomUl li{
+	/*border: 1px solid red;*/
+	height: 60px;
+}
+/*手机验证*/
+.phoneVer1{
+	position: relative;
+}
+.phoneVer1 img{
+	width: 238px;height: 42px;
+}
+.phoneVerS1,.phoneVerS2,.phoneVerS3{
+ 	position: absolute;
+ 	top: 10px;
+ 	
+ }
+ .phoneVerS1{
+ 	left: 60px;
+ 	color: white;
+ }
+ .phoneVerS2{
+ 	left: 60px;
+ }
+ .phoneVerS3{
+ 	left: 70px;
+ }
+.orderLi{
+	margin-top: 30px;
+	/*border: 1px solid red;*/
+}
+.orderLiDiv{
+	width: 370px;
+	/*border: 1px solid red;*/
+}
+.orderLiDiv input{
+	width: 220px;
+	height: 30px;
+	margin-right: 10px;
+}
+.orderPageDataCenterRight2BottomBtn,
+.orderPageDataCenterRight3BottomBtn,
+.orderPageDataCenterRight4BottomBtn{
+	width: 173px;
+	height: 47px;
+	text-align: center;
+	line-height: 47px;
+	background-color: #ec6a17;
+	color: white;
+	margin-left: 115px;
+	margin-top: 38px;
+	border-radius: 5px;
+}
+#orderPageDataCenterRight3{
+	width: 986px;
+	border: 1px solid rgb(191, 191, 191);
+	/*border: 1px solid red;*/
+	height: 535px;
+	background-color: rgb(255, 255, 255);
+	display: none;
+}
+#orderPageDataCenterRight4{
+	width: 986px;
+	border: 1px solid rgb(191, 191, 191);
+	/*border: 1px solid red;*/
+	height: 535px;
+	background-color: rgb(255, 255, 255);
+	display: none;
+}
+.orderPageDataCenterRight4BottomSuc{
+	/*border: 1px solid red;*/
+	text-align: center;
+	width: 255px;
+	margin-left: 256px;
+	margin-top: 150px;
+}
+/*/验证错误的提示*/
+.orderLiIput1_1,
+.orderLiIput1_2,
+.orderLiIput2_1,
+.orderLiIput2_2,
+.orderLiIput1_ch1,
+.orderLiIput1_ch2,
+.orderLiIput1_ch3,
+.orderLiIputT_ch2,
+.orderLiIputO_ch1,
+.orderLiIputTh_ch2,
+.orderLiIputTh_ch3{
+	display: none;
+}
+
+/*生日*/
+select{ height: 30px; padding: 0 4px;}

@@ -1,0 +1,113 @@
+body{
+	background-color: #f2f2f2;
+}
+#changeCity{
+	width: 1180px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+/*您的位置*/
+#yourAddress{
+	padding: 20px 0;
+}
+.HLAhomeSpan{
+	color: #ec6a17;
+	cursor: pointer;
+}
+#intHLADetail{
+	height: 258px;
+	padding: 20px;
+	border: 1px solid #d3d3d3;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+}
+/*A-Z城市*/
+#A-Z_City{
+	width: 1138px;
+	padding: 0 20px;
+	border: 1px solid #d3d3d3;
+	background-color: white;
+}
+#selectCityMenu{
+	list-style-type: none;
+}
+#selectCityMenu li{
+	border-bottom: 1px solid #d3d3d3;
+	padding: 15px 0;
+}
+#selectCityMenu li span{
+	cursor: pointer;
+}
+/*当前城市*/
+.selectCity-span1{
+	color: #ec6a17;
+}
+.selectCity-span2{
+	margin-right: 15px;
+}
+.selectCity-span2:hover{
+	color: #ec6a17;
+}
+.selectCity-span3:hover{
+	color: #ec6a17;
+}
+/*A-Z 城市内容*/
+.cityUl{
+	margin: 60px 0 40px;
+}
+.cityUl > li {
+	list-style-type: none;
+	margin-bottom: 20px;
+	position: relative;
+}
+.cityUl li span{
+	display: inline-block;
+	font-size: 25px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border: 1px solid #d3d3d3;
+}
+.cityUl li:hover{
+	background-color: #f2f2f2;
+}
+.cityUl li:hover >span{
+	color: white;
+	background-color: #008de1;
+}
+/*城市名*/
+.A-Z{
+	overflow: hidden;
+	list-style-type: none;
+	position: absolute;
+	top: 0;
+	left: 60px;
+	padding: 5px 0;
+}
+.A-Z li{
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.A-Z li:hover{
+	color: #ec6a17;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>易和生活港 | 页面丢失</title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.notSearch_wrap{
+				/*border:1px solid red;*/
+				width: 760px;
+				margin: 0 auto;
+				margin-top: 200px;
+				text-align: center;
+			}
+			p{
+				margin: 30px 0;
+				font-size: 23px;
+				color:rgb(102,102,102);
+			}
+			.reto,.toHomePage{
+				width: 170px;
+				height: 40px;
+				color:white;
+				border:0px solid red;
+				border-radius:5px;
+				font-size: 18px;
+				margin-top: 70px;
+			}
+			.reto{
+				background-color: rgb(244,107,43);
+				margin-right: 30px;
+			}
+			.toHomePage{
+				background-color: rgb(0,140,221);
+				margin-left: 30px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="notSearch_wrap">
+			<div>
+				<img src="img/notsearch.png" alt="" />
+			</div>
+			<p>您要查看的网址可能已被删除、名称已被更改、或者暂时不可用</p>	
+			<div>
+				<input class="reto" type="button" value="返回上一页"/>
+				<input class="toHomePage" type="button" value="返回网站首页"/>
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		//点击返回上一页
+		$('.reto').click(function () {
+			window.history.back();
+		});
+		//返回网站首页
+		$('.toHomePage').click(function () {
+			location.href = './homePage.html';
+		});
+	</script>
+</html>

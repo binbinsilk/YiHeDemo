@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+}
+
+/*底部上部分*/
+#footTop{
+	height: 85px;
+	min-width: 1180px;
+	background-color: #e2e2e2;
+}
+#footTop a{
+	text-decoration: none;
+	color: #666666;
+}
+#footTop ul{
+	width: 1180px;
+	margin: 0 auto;
+	list-style-type: none;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+}
+#footTop li{
+	width: 236px;
+	height: 85px;
+	float: left;
+	text-align: center;
+	line-height: 85px;
+	font-size: 26px;
+	color: #666666;
+}
+#footTop li img{
+	vertical-align: middle;
+	margin-right: 10px;
+}
+/*------------------------------------------------*/
+/*底部中部*/
+#footMiddle{
+	height: 211px;
+	padding-top: 35px;
+	border-bottom: 1px solid #d3d3d3;
+}
+#footMiddleWrap{
+	width: 1180px;
+	height: 175px;
+	margin: 0 auto;
+	position: relative;
+}
+/*二维码*/
+#footQRCodes{
+	width: 350px;
+	overflow: hidden;
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 300px;
+}
+.QRCode{
+	width: 145px;
+	height: 175px;
+	text-align: center;
+	margin-right: 30px;
+}
+.QRCode>img{
+	vertical-align: bottom;
+}
+.QRCode p{
+	width: 100px;
+	height: 30px;
+	margin: 0 auto; 
+	font-size: 14px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+/*右侧ul集合外围*/
+#footMiddleDetial{
+	display: inline-block;
+	/*border: 1px solid blue;*/
+	width: 500px;
+	height: 145px;
+	position: absolute;
+	top: 0;
+	left: 650px;
+	border-left: 1px solid #d3d3d3;
+}
+/*ul集合*/
+#footMiddle_uls{
+	/*border: 1px solid yellow;*/
+	margin-left: 35px;
+	display: flex;
+	justify-content: space-between;
+}
+#footMiddle_uls ul{
+	float: left;
+}
+#footMiddle_uls li:first-child{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+#footMiddle_uls li{
+	list-style-type: none;
+	font-size: 14px;
+	line-height: 38px;
+}
+#footMiddle_uls a{
+	text-decoration: none;
+	color: #666666;
+}
+#footMiddle_uls a:hover{
+	color: #008de1;
+}
+/*-----------------------------------------------------*/
+/*底部下方*/
+#footBottom{
+	width: 1180px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 30px 0;
+	font-size: 14px;
+}
+#footBottom p{
+	color: #999999;
+	margin-bottom: 10px;
+}
+#footBottom span{
+	color: #008de1;
+}

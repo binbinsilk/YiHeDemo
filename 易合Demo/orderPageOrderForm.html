@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>易和生活港 | 我的订单</title>
+		<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />-->
+		<link rel="stylesheet" type="text/css" href="css/orderPageAddress.css" />
+		<link rel="stylesheet" type="text/css" href="css/pullDown.css" />
+		<link rel="stylesheet" type="text/css" href="css/orderPageOrderForm.css" />
+	</head>
+
+	<body>
+		<!--头部输入框和导航栏部分-->
+		<div id="div1"></div>
+		<div id="selectMenu">
+			<div id="pullDown">
+				<!--行业分类-->
+				<span id="tradeClassify">
+					<div>
+						行业分类
+						<img src="img/homePage/whiteJianTou.png"/>
+					</div>
+				</span>
+				<!--行业分类下拉内容-->
+				<div id="tradeClassify_pullDown">
+					<!--左侧分类-->
+					<ul id="pullDownLeft">
+						<li>
+							服装超市
+							<img src="img/homePage/rightJianTou.png" />
+						</li>
+						<li>
+							建材装修
+							<img src="img/homePage/rightJianTou.png" />
+						</li>
+						<li>
+							休闲娱乐
+							<img src="img/homePage/rightJianTou.png" />
+						</li>
+						<li>
+							生活服务
+							<img src="img/homePage/rightJianTou.png" />
+						</li>
+						<li>
+							3C市场
+							<img src="img/homePage/rightJianTou.png" />
+						</li>
+						<li>
+							丽人
+							<img src="img/homePage/rightJianTou.png" />
+						</li>
+						<li>
+							本地生活
+							<img src="img/homePage/rightJianTou.png" />
+						</li>
+						<li>
+							购物
+							<img src="img/homePage/rightJianTou.png" />
+						</li>
+						<li>
+							电子数码
+							<img src="img/homePage/rightJianTou.png" />
+						</li>
+					</ul>
+					<!--详细内容-->
+					<div id="pullDownRight">
+						<ul>
+							<li>
+								<a href="./HLAhome.html" style="text-decoration: none;color:white">海澜之家</a>
+							</li>
+							<li>Adidas</li>
+						</ul>
+						<ul>
+							<li>全友家私</li>
+							<li>居然之家</li>
+						</ul>
+						<ul>
+							<li>steam</li>
+							<li>育碧</li>
+						</ul>
+						<ul>
+							<li>美团外卖</li>
+							<li>百度糯米</li>
+						</ul>
+						<ul>
+							<li>iphone</li>
+							<li>华为</li>
+						</ul>
+						<ul>
+							<li>春纪</li>
+							<li>巴黎欧莱雅</li>
+						</ul>
+						<ul>
+							<li>同城二手</li>
+							<li>小时工</li>
+						</ul>
+						<ul>
+							<li>淘宝</li>
+							<li>京东</li>
+						</ul>
+						<ul>
+							<li>佳能</li>
+							<li>索尼</li>
+						</ul>
+					</div>
+				</div>
+
+				<!--上方选项-->
+				<ul id="optionsMenu">
+					<li>
+						<a href="./homePage.html">首页</a>
+					</li>
+					<li>
+						<a href="./choiceShop.html">精选商家</a>
+					</li>
+					<li>
+						<a href="./todayOnSale.html">今日特价</a>
+					</li>
+					<li>
+						<a href="./pointMall.html">积分商城</a>
+					</li>
+					<li>
+						<a href="./joinYH.html">加入易和</a>
+					</li>
+					
+					<li>
+						<a href="###" id="onlineService">在线客服</a>
+					</li>
+				</ul>
+				<!--在线客服下拉内容-->
+				<div id="serviceContent">
+					<img src="img/homePage/keFuBack.png" />
+					<div id="QQServices">
+						<div class="QQService">
+							<img src="img/homePage/QQlogo.png" /> QQ客服1
+						</div>
+						<div class="QQService">
+							<img src="img/homePage/QQlogo.png" /> QQ客服2
+						</div>
+						<div class="QQService">
+							<img src="img/homePage/QQlogo.png" /> QQ客服3
+						</div>
+					</div>
+					<img src="img/homePage/QRCode.png" id="serviceCode" />
+				</div>
+			</div>
+		</div>
+
+		<!--中间部分-->
+		<div id="orderPageOfWrap" style="height: 2000px;min-width: 1180px;">
+			<div id="orderPageOfCenter">
+				<!--中间左边菜单栏-->
+				<div id="orderPageOfCenterLeft">
+					<div id="me">
+						<img src="img/icon.png" />
+						<p>个人中心</p>
+					</div>
+					<ul id="orderPageOfCenterLeftUl">
+						<div class="div1">
+							<h4>交易管理</h4>
+						</div>
+						<li>
+							<span>
+						<a href="orderPageMyID.html">我的账户</a>
+					</span>
+						</li>
+						<li>
+							<span>
+						<a href="orderPageOrderForm.html" style="color: #ed7122; border-bottom: 1px solid #ed7122;">我的订单</a>
+					</span>
+						</li>
+						<li>
+							<span>
+						<a href="orderPageMyIntegral.html">我的积分</a>
+					</span>
+						</li>
+						<li>
+							<span>
+						<a href="orderPageAccountPay.html">我的易和券</a>
+					</span>
+						</li>
+						<div class="div1">
+							<h4>会员资料</h4>
+						</div>
+						<li>
+							<span>
+						<a href="orderPageData.html">个人资料</a>
+					</span>
+						</li>
+						<li>
+							<span>
+						<a href="orderPageAddress.html">地址管理</a>
+					</span>
+						</li>
+						<li>
+							<span>
+						<a href="orderPageCollect.html">我的收藏</a>
+					</span>
+						</li>
+						<li>
+							<span>
+						<a href="orderPageRecently.html">最近浏览</a>
+					</span>
+						</li>
+						<li>
+							<span>
+						<a href="orderPageAmendPassword.html">修改密码</a>
+					</span>
+						</li>
+						<div class="div1">
+							<h4>站内信息</h4>
+						</div>
+						<li>
+							<span>
+						<a href="orderPageMyNews.html">我的消息</a>
+					</span>
+						</li>
+					</ul>
+				</div>
+				<!--中间右边页面主题-->
+				<div id="orderPageOrderFormRight" style="display: none;">
+					<div id="orderPageOrderFormRightTop">
+						<span class="orderPageSpanTop">
+							我的订单
+						</span>
+					</div>
+					<div id="orderPageOrderFormRightBottom">
+						<!--订单状态表头-->
+						<div class="OrderFormCondition">
+							<div class="condition">
+								<span style="background-color: #ffe3d1; padding: 5px 10px;">全部</span>
+							</div>
+							<div class="condition">待付款</div>
+							<div class="condition">待发货</div>
+							<div class="condition">待收货</div>
+							<div class="condition">已收货</div>
+							<div class="condition">退款</div>
+							<div style="width: 150px; margin-left: 10px;">已完成/关闭</div>
+							<div style="width: 90px;">订单回收站</div>
+						</div>
+						<!--状态明细-->
+						<div class="conditionTable">
+							<div class="conditionTableTop">
+								<p style="margin-left: 10px;">订单号:150319690000</p>
+								<p style="margin-left: 60px;">下单日期:2015.04.09&nbsp;18:06:06</p>
+								<p style="margin-left: 160px;">海澜之家旗舰店</p>
+								<p style="margin-left: 100px;">订单状态:<span style="color: #ff6d02;">关闭</span></p>
+							</div>
+							<ul class="conditionTableUl">
+								<li>
+									<img src="img/AssIsCom.png" />
+									<p>《寻龙诀》北京保利龙旗广场店电影票</p>
+									<div>
+										<p>版本:国行&nbsp;32G</p>
+										<p>颜色:星钻黑</p>
+									</div>
+									<p>¥35.0 × 1</p>
+								</li>
+								<li>
+									<img src="img/AssIsCom.png" />
+									<p>《寻龙诀》北京保利龙旗广场店电影票</p>
+									<div>
+										<p>版本:国行&nbsp;32G</p>
+										<p>颜色:星钻黑</p>
+									</div>
+									<p>¥35.0 × 1</p>
+								</li>
+								<li>
+									<img src="img/AssIsCom.png" />
+									<p>《寻龙诀》北京保利龙旗广场店电影票</p>
+									<div>
+										<p>版本:国行&nbsp;32G</p>
+										<p>颜色:星钻黑</p>
+									</div>
+									<p>¥35.0 × 1</p>
+								</li>
+							</ul>
+							<!--订单金额-->
+							<div class="conditionTableRight">
+								<div class="conditionTableRight1">
+									<p>总金额:¥105.0</p>
+									<p>(含运费¥6.0)</p>
+								</div>
+								<!--订单操作-->
+								<div class="conditionTableRight2">
+									<div>
+										<a href="./orderPageIdentDetails.html">查看详情</a>
+										<div style="background-color: #ffe3d1;  width: 75px; margin: 0 auto;margin-top: 12px; color: #ff6c00;"  class="conditionDelete">删除订单</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+																
+						<!--状态明细-->
+						<div class="conditionTable">
+							<div class="conditionTableTop">
+								<p style="margin-left: 10px;">订单号:150319690000</p>
+								<p style="margin-left: 60px;">下单日期:2015.04.09&nbsp;18:06:06</p>
+								<p style="margin-left: 160px;">海澜之家旗舰店</p>
+								<p style="margin-left: 100px;">订单状态:<span style="color: #ff6d02;">待付款</span></p>
+							</div>
+							<ul class="conditionTableUl">
+								<li>
+									<img src="img/AssIsCom.png" />
+									<p>《寻龙诀》北京保利龙旗广场店电影票</p>
+									<div>
+										<p>版本:国行&nbsp;32G</p>
+										<p>颜色:星钻黑</p>
+									</div>
+									<p>¥35.0 × 1</p>
+								</li>
+								<li>
+									<img src="img/AssIsCom.png" />
+									<p>《寻龙诀》北京保利龙旗广场店电影票</p>
+									<div>
+										<p>版本:国行&nbsp;32G</p>
+										<p>颜色:星钻黑</p>
+									</div>
+									<p>¥35.0 × 1</p>
+								</li>
+								<li>
+									<img src="img/AssIsCom.png" />
+									<p>《寻龙诀》北京保利龙旗广场店电影票</p>
+									<div>
+										<p>版本:国行&nbsp;32G</p>
+										<p>颜色:星钻黑</p>
+									</div>
+									<p>¥35.0 × 1</p>
+								</li>
+							</ul>
+							<!--订单金额-->
+							<div class="conditionTableRight">
+								<div class="conditionTableRight1">
+									<p>总金额:¥105.0</p>
+									<p>(含运费¥6.0)</p>
+								</div>
+								<!--订单操作-->
+								<div class="conditionTableRight2">
+									<div>
+										<a href="./orderPageIdentDetails.html">查看详情</a>
+										<div style="background-color: #ffe3d1;  width: 75px; margin: 0 auto;;margin-top: 5px;;"><a style="color: #ff6c00" href="orderPay.html">去支付</a></div>
+										<div style="background-color: #ffe3d1;  width: 75px; margin: 0 auto;margin-top: 5px; color: #ff6c00;"  class="conditionDelete">删除订单</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--状态明细-->
+						<div class="conditionTable">
+							<div class="conditionTableTop">
+								<p style="margin-left: 10px;">订单号:150319690000</p>
+								<p style="margin-left: 60px;">下单日期:2015.04.09&nbsp;18:06:06</p>
+								<p style="margin-left: 160px;">海澜之家旗舰店</p>
+								<p style="margin-left: 100px;">订单状态:<span style="color: #ff6d02;">待发货</span></p>
+							</div>
+							<ul class="conditionTableUl">
+								<li>
+									<img src="img/AssIsCom.png" />
+									<p>《寻龙诀》北京保利龙旗广场店电影票</p>
+									<div>
+										<p>版本:国行&nbsp;32G</p>
+										<p>颜色:星钻黑</p>
+									</div>
+									<p>¥35.0 × 1</p>
+								</li>
+								<li>
+									<img src="img/AssIsCom.png" />
+									<p>《寻龙诀》北京保利龙旗广场店电影票</p>
+									<div>
+										<p>版本:国行&nbsp;32G</p>
+										<p>颜色:星钻黑</p>
+									</div>
+									<p>¥35.0 × 1</p>
+								</li>
+								<li>
+									<img src="img/AssIsCom.png" />
+									<p>《寻龙诀》北京保利龙旗广场店电影票</p>
+									<div>
+										<p>版本:国行&nbsp;32G</p>
+										<p>颜色:星钻黑</p>
+									</div>
+									<p>¥35.0 × 1</p>
+								</li>
+							</ul>
+							<!--订单金额-->
+							<div class="conditionTableRight">
+								<div class="conditionTableRight1">
+									<p>总金额:¥105.0</p>
+									<p>(含运费¥6.0)</p>
+								</div>
+								<!--订单操作-->
+								<div class="conditionTableRight2">
+									<div>
+										<a href="./orderPageIdentDetails.html">查看详情</a>
+										<div style="background-color: #ffe3d1;  width: 75px; margin: 0 auto;margin-top: 12px; color: #ff6c00;">申请退款</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--状态明细-->
+						<div class="conditionTable">
+							<div class="conditionTableTop">
+								<p style="margin-left: 10px;">订单号:150319690000</p>
+								<p style="margin-left: 60px;">下单日期:2015.04.09&nbsp;18:06:06</p>
+								<p style="margin-left: 160px;">海澜之家旗舰店</p>
+								<p style="margin-left: 100px;">订单状态:<span style="color: #ff6d02;">已发货</span></p>
+							</div>
+							<ul class="conditionTableUl">
+								<li>
+									<img src="img/AssIsCom.png" />
+									<p>《寻龙诀》北京保利龙旗广场店电影票</p>
+									<div>
+										<p>版本:国行&nbsp;32G</p>
+										<p>颜色:星钻黑</p>
+									</div>
+									<p>¥35.0 × 1</p>
+								</li>
+								<li>
+									<img src="img/AssIsCom.png" />
+									<p>《寻龙诀》北京保利龙旗广场店电影票</p>
+									<div>
+										<p>版本:国行&nbsp;32G</p>
+										<p>颜色:星钻黑</p>
+									</div>
+									<p>¥35.0 × 1</p>
+								</li>
+								<li>
+									<img src="img/AssIsCom.png" />
+									<p>《寻龙诀》北京保利龙旗广场店电影票</p>
+									<div>
+										<p>版本:国行&nbsp;32G</p>
+										<p>颜色:星钻黑</p>
+									</div>
+									<p>¥35.0 × 1</p>
+								</li>
+							</ul>
+							<!--订单金额-->
+							<div class="conditionTableRight">
+								<div class="conditionTableRight1">
+									<p>总金额:¥105.0</p>
+									<p>(含运费¥6.0)</p>
+								</div>
+								<!--订单操作-->
+								<div class="conditionTableRight2">
+									<div>
+										<a href="./orderPageIdentDetails.html">查看详情</a>
+										<div style="background-color: #ffe3d1;  width: 75px; margin: 0 auto;;margin-top: 5px;color: #ff6c00;">确认收货</div>
+										<div style="background-color: #ffe3d1;  width: 75px; margin: 0 auto;margin-top: 5px;"><a href="./orderPageMyNews.html" style="color: #ff6c00;">查看物流</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--状态明细-->
+						<div class="conditionTable">
+							<div class="conditionTableTop">
+								<p style="margin-left: 10px;">订单号:150319690000</p>
+								<p style="margin-left: 60px;">下单日期:2015.04.09&nbsp;18:06:06</p>
+								<p style="margin-left: 160px;">海澜之家旗舰店</p>
+								<p style="margin-left: 100px;">订单状态:<span style="color: #ff6d02;">已收货</span></p>
+							</div>
+							<ul class="conditionTableUl">
+								<li>
+									<img src="img/AssIsCom.png" />
+									<p>《寻龙诀》北京保利龙旗广场店电影票</p>
+									<div>
+										<p>版本:国行&nbsp;32G</p>
+										<p>颜色:星钻黑</p>
+									</div>
+									<p>¥35.0 × 1</p>
+								</li>
+								<li>
+									<img src="img/AssIsCom.png" />
+									<p>《寻龙诀》北京保利龙旗广场店电影票</p>
+									<div>
+										<p>版本:国行&nbsp;32G</p>
+										<p>颜色:星钻黑</p>
+									</div>
+									<p>¥35.0 × 1</p>
+								</li>
+								<li>
+									<img src="img/AssIsCom.png" />
+									<p>《寻龙诀》北京保利龙旗广场店电影票</p>
+									<div>
+										<p>版本:国行&nbsp;32G</p>
+										<p>颜色:星钻黑</p>
+									</div>
+									<p>¥35.0 × 1</p>
+								</li>
+							</ul>
+							<!--订单金额-->
+							<div class="conditionTableRight">
+								<div class="conditionTableRight1">
+									<p>总金额:¥105.0</p>
+									<p>(含运费¥6.0)</p>
+								</div>
+								<!--订单操作-->
+								<div class="conditionTableRight2">
+									<div>
+										<a href="./orderPageIdentDetails.html">查看详情</a>
+										<div style="background-color: #ffe3d1;  width: 75px; margin: 0 auto;margin-top: 12px; color: #ff6c00;">申请退款</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--状态明细-->
+						<div class="conditionTable">
+							<div class="conditionTableTop">
+								<p style="margin-left: 10px;">订单号:150319690000</p>
+								<p style="margin-left: 60px;">下单日期:2015.04.09&nbsp;18:06:06</p>
+								<p style="margin-left: 160px;">海澜之家旗舰店</p>
+								<p style="margin-left: 100px;">订单状态:<span style="color: #ff6d02;">已完成</span></p>
+							</div>
+							<ul class="conditionTableUl">
+								<li>
+									<img src="img/AssIsCom.png" />
+									<p>《寻龙诀》北京保利龙旗广场店电影票</p>
+									<div>
+										<p>版本:国行&nbsp;32G</p>
+										<p>颜色:星钻黑</p>
+									</div>
+									<p>¥35.0 × 1</p>
+								</li>
+								<li>
+									<img src="img/AssIsCom.png" />
+									<p>《寻龙诀》北京保利龙旗广场店电影票</p>
+									<div>
+										<p>版本:国行&nbsp;32G</p>
+										<p>颜色:星钻黑</p>
+									</div>
+									<p>¥35.0 × 1</p>
+								</li>
+								<li>
+									<img src="img/AssIsCom.png" />
+									<p>《寻龙诀》北京保利龙旗广场店电影票</p>
+									<div>
+										<p>版本:国行&nbsp;32G</p>
+										<p>颜色:星钻黑</p>
+									</div>
+									<p>¥35.0 × 1</p>
+								</li>
+							</ul>
+							<!--订单金额-->
+							<div class="conditionTableRight">
+								<div class="conditionTableRight1">
+									<p>总金额:¥105.0</p>
+									<p>(含运费¥6.0)</p>
+								</div>
+								<!--订单操作-->
+								<div class="conditionTableRight2">
+									<div>
+										<a href="./orderPageIdentDetails.html">查看详情</a>
+										<div style="background-color: #ffe3d1;  width: 75px; margin: 0 auto;;margin-top: 5px;">
+											<a href="orderPageAssessIsComm.html" style="color: #ff6c00;">去评价</a>
+										</div>
+										<div style="background-color: #ffe3d1;  width: 75px; margin: 0 auto;margin-top: 5px; color: #ff6c00;" class="conditionDelete">删除订单</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						
+						<!--底部翻页器-->
+					<div id="goodsJudgeBottom">
+						<ul class="goodsJudgeBottomBtn">
+							<li><a href="#">首页</a></li>
+							<li><a href="#">上一页</a></li>
+							<li class="goodsJudgeBottomBtnLi"><a href="#">1</a></li>
+							<li class="goodsJudgeBottomBtnLi"><a href="#">2</a></li>
+							<li class="goodsJudgeBottomBtnLi"><a href="#">3</a></li>
+							<li><a href="#">...</a></li>
+							<li class="goodsJudgeBottomBtnLi"><a href="#">58</a></li>
+							<li class="goodsJudgeBottomBtnLi"><a href="#">59</a></li>
+							<li><a href="#">下一页</a></li>
+							<li><a href="#">尾页</a></li>
+						</ul> 
+								<p class="goodsJudgeBottmJump">共 <span>59</span> 页, 到第 &nbsp;<input type="text" />
+						页 &nbsp;
+						<input style="width:90px;height:34px;border-radius:5px;color:#fff;font-size:18px;background-color: #008DE1;border:0" type="button" value="确定"/>&nbsp;&nbsp;
+						共 <span>215</span> 条</p>
+					</div>
+						
+					
+				</div>
+			
+				
+				
+				
+				
+				
+				</div>
+				
+				
+				<!--中间右边页面主题-->
+				<div id="orderPageOrderFormRight1">
+					<div id="orderPageOrderFormRightTop">
+						<span class="orderPageSpanTop">
+							我的订单
+						</span>
+					</div>
+					<div id="orderPageOrderFormRightBottom">
+						<!--订单状态表头-->
+						<div class="OrderFormCondition">
+							<div class="condition">
+								<span style="background-color: #ffe3d1; padding: 5px 10px;">全部</span>
+							</div>
+							<div class="condition">待付款</div>
+							<div class="condition">待发货</div>
+							<div class="condition">待收货</div>
+							<div class="condition">已收货</div>
+							<div class="condition">退款</div>
+							<div style="width: 150px; margin-left: 10px;">已完成/关闭</div>
+							<div style="width: 90px;">订单回收站</div>
+						</div>
+						<div class="orderPageOrderFormNull">
+						    <div class="orderPageOrderFormNullLeft">
+						        <img src="img/orderFormNull.png"/>
+						    </div>
+						    <div class="orderPageOrderFormNullRight">
+						        <p>暂时没有订单</p>
+						        <a href="./homePage.html">
+						        	<div class="orderPageOrderFormNullBtn">
+						        	    去首页看看
+						        	</div>
+						        </a>
+						    </div>
+						</div>
+					</div>
+				</div>
+			
+		</div>
+		<div class="footer">
+			<!--<iframe src="foot.html" width="100%" height="436px" scrolling="no" frameborder="0"></iframe>-->
+		</div>
+	</body>
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<!--<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>-->
+	<!--头部下拉列表-->
+	<script src="js/pullDown.js" type="text/javascript" charset="utf-8"></script>
+	<!--中间左边下拉列表-->
+	<script src="js/orderPageAddress.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/headAndFoot.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/pullDownJs.js" type="text/javascript" charset="utf-8"></script>
+	<!--//订单删除操作-->
+	<script type="text/javascript">
+		$('.conditionDelete').click(function () {
+			$(this).parent().parent().parent().parent().slideUp(600,function () {
+				$(this).remove();
+			});
+		});
+		console.log(localStorage);
+//		本地中记录订单生成状态的orders不为0,则显示有订单的界面
+		if (!localStorage.orders ) {
+			$('#orderPageOrderFormRight').hide();
+			$('#orderPageOrderFormRight1').show();
+		} else{
+			if (localStorage.orders == 0) {
+				$('#orderPageOrderFormRight').hide();
+				$('#orderPageOrderFormRight1').show();
+			} else{
+				$('#orderPageOrderFormRight').show();
+				$('#orderPageOrderFormRight1').hide();
+			}
+			
+		}
+		
+		
+	</script>
+</html>

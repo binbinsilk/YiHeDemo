@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#orderPageAccountPay{
+	width: 986px;
+}
+#orderPageAccountPayRightTop1,
+#orderPageAccountPayRightBottomTop{
+	height: 56px;
+	border: 1px solid rgb(191, 191, 191);
+	padding: 0 21px;
+	line-height: 56px;
+	background-color: white;
+}
+/*充值区域*/
+#orderPageAccountPayRightTop2{
+	width: 984px;
+	height: 250px;
+	border: 1px solid rgb(191, 191, 191);
+	border-top: 0;
+	background-color: white;
+}
+/*显示余额*/
+.AccountBalance,.PayBox{
+	/*border: 1px solid red;*/
+	width: 940px;
+	height: 65px;
+	margin: 0 auto;
+	line-height: 65px;
+	font-size: 18px;
+}
+/*充值按钮*/
+.PayUp{
+	width: 130px;
+	height: 48px;
+	background-color: #ec6a17;
+	color: white;
+	text-align: center;
+	line-height: 48px;
+	margin-left: 110px;
+	border-radius: 5px;
+}
+/*充值记录*/
+#orderPageAccountPayRightBottomTop{
+	margin-top: 20px;
+}
+/*充值记录详情*/
+#orderPageAccountPayRightBottomBot{
+	width: 984px;
+	margin-bottom: 20px;
+	padding-bottom: 40px;
+	border: 1px solid rgb(191, 191, 191);
+	border-top: 0;
+	background-color: white;
+}
+.AccountPayRightBottomTab{
+	width: 940px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+.AccountPayRightBottomTab th{
+	font-size: 18px;
+}
+.AccountPayRightBottomTab tr,
+.AccountPayRightBottomTab th{
+	text-align: center;
+	height: 47px;
+}
+.AccountPayRightBottomTab tr{
+	border-bottom: 1px dotted #999999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

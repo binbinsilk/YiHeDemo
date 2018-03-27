@@ -1,0 +1,210 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/*中间部分*/
+#orderPageOfWrap{
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	width: 100%;
+	height: 607px;
+}
+#orderPageOfCenter{
+	margin: 20px auto;
+	/*border: 1px solid red;*/
+	width: 1180px;
+	display: flex;
+	justify-content: space-between;
+}
+
+/*中间左边菜单栏*/
+
+#orderPageOfCenterLeft {
+	width: 173px;
+	height: 535px;
+	border: 1px solid rgb(191, 191, 191);
+	/*border: 1px solid red;*/
+	background-color: rgb(255, 255, 255);
+}
+
+#me {
+	display: flex;
+	align-items: center;
+	padding: 12px 0 12px 25px;
+	border-bottom: 1px solid rgb(227, 227, 227);
+}
+
+#me img {
+	width: 12px;
+	height: 12px;
+}
+
+#me p {
+	margin-left: 10px;
+}
+
+#orderPageOfCenterLeftUl {
+	list-style-type: none;
+	/*border: 1px solid blue;*/
+}
+
+#orderPageOfCenterLeftUl li {
+	/*border: 1px solid red;*/
+	color: rgb(140, 140, 140);
+	padding: 13px 0 14px 23px;
+	font-size: 13px;
+}
+
+#orderPageOfCenterLeftUl li a {
+	color: rgb(140, 140, 140);
+	text-decoration: none;
+}
+
+.div1 {
+	/*border: 1px solid red;*/
+	padding: 8px 0 8px 23px;
+	color: rgb(120, 120, 120);
+}
+/*中间右边页面主题*/
+#orderPageOfCenterRight{
+	width: 986px;
+	/*border: 1px solid rgb(191, 191, 191);*/
+	/*border: 1px solid red;*/
+	height: 535px;
+	background-color: rgb(255, 255, 255);
+	overflow: hidden;
+}
+#orderPageOfCenterRightTop{
+	display: flex;
+	height: 56px;
+	border: 1px solid rgb(191, 191, 191);
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 21px 0  21px;
+}
+.orderPageSpanTop{
+	color: #33a4e7;
+	/*border: 1px solid red;*/
+}
+.orderPageButtonTop{
+	border: 1px solid red;
+	width: 90px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 5px;
+	background-color: #ec6a17;
+	color: white;
+	font-size: 13px;
+	text-align: center;
+	cursor: pointer;
+}
+/*中间右边下部*/
+#orderPageOfCenterRightBottom1{
+	border: 1px solid rgb(191, 191, 191);
+	border-top: 0px;
+	height: 479px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.orderPageOfCenterRightBottomImg img{
+	width: 21px;
+	height: 21px;
+}
+.orderPageOfCenterRightBottomText1{
+	color: #999999;
+	padding-left: 22px;
+	font-size: 13px;
+}
+.orderPageOfCenterRightBottomText2{
+	padding-left: 10px;
+	color: #ec6a17;
+	font-size: 17px;
+	cursor: pointer;
+}
+/*中间修改地址部分*/
+/*地址填写*/
+/*上面*/
+#orderPageOfCenterRightTop2{
+	height: 56px;
+	border: 1px solid rgb(191, 191, 191);
+	line-height: 56px;
+	padding: 0 21px 0  21px;
+	display: none;
+}
+/*下面*/
+#orderPageOfCenterRightBottom2{
+	border: 1px solid rgb(191, 191, 191);
+	border-top: 0px;
+	height: 479px;
+	display: flex;
+	display: none;
+}
+#orderPageOfCenterRightBottom2Ul{
+	/*border: 1px solid red;*/
+	list-style-type: none;
+	width: 598px;
+	height: 246px;
+	margin-left: 41px;
+	padding-top: 30px;
+	font-size: 16px;
+}
+#orderPageOfCenterRightBottom2Ul li{
+	
+	/*border: 1px solid red;*/
+	margin-top: 20px;
+}
+#orderPageOfCenterRightBottom2Ul select{
+	height: 38px;
+	width: 141px;
+	font-size: 19px;
+	margin-left: 20px;
+}
+.orderPageOfCenterRightBottom2Btn{
+	/*border: 1px solid red;*/
+	width: 173px;
+	height: 47px;
+	text-align: center;
+	line-height: 47px;
+	background-color: #ec6a17;
+	color: white;
+	margin-left: 145px;
+	margin-top: 38px;
+	border-radius: 5px;
+}
+/*地址插入*/
+#orderPageOfCenterRightBottom3{
+	border: 1px solid rgb(191, 191, 191);
+	border-top: 0px;
+	height: 479px;
+	padding: 18px;
+	display: none;
+}
+#orderPageOfCenterRightBottom3 span{
+	color: #008de1;
+	cursor: pointer;
+}
+#orderPageOfCenterRightBottom3 span:hover{
+	border-bottom: 1px solid #ec6a17;
+	color: #ec6a17;
+}
+.orderPageOfCenterRightBottom3Tabl tr{
+	height: 40px;
+}
+/*鼠标悬停时的显示颜色*/
+.orderPageOfCenterRightBottom3Tabl tr:hover{
+	background-color: wheat;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>易和生活港 | 今日特价</title>
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/pullDown.css"/>
+		<link rel="stylesheet" type="text/css" href="css/homePage.css"/>
+		<style type="text/css">
+			body{
+				width: 100%;
+				background-color:#f2f2f2;
+			}
+			#optionsMenu li:nth-child(3) a{
+				color: #ff6c00;
+			}
+			/*限量抢购*/
+			#rushBuy{
+				border: 0;
+				width: 1180px;
+				margin: 0 auto;
+				padding: 30px 0 20px;
+			}
+			/*轮播图02-限量抢购内容*/
+			#swiper-container02{
+				width: 1180px;
+			}
+			/*每一个slide*/
+			.swiper-rushBuy{
+				width: 278px;
+				height: 393px;
+				border: 1px solid #e1e1e1;
+				background-color: white;
+			}
+			.swiper-rushBuy:hover{
+				border: 1px solid hotpink;
+			}
+			.swiper-rushBuy img{
+				width: 278px;
+				height: 278px;
+			}
+			/*文字部分*/
+			.swiper-rushBuy-text{
+				height: 110px;
+				line-height: 30px;
+				padding: 10px;
+			}
+			.swiper-rushBuy-text p{
+				color: #666666;
+				font-size: 14px;
+			}
+			/*现价*/
+			.swiper-span01{
+				color: red;
+			}
+			/*原价*/
+			.swiper-span02{
+				font-size: 14px;
+				text-decoration: line-through;
+				float: right;
+			}
+			/*上一个按钮*/
+			.swiper-button-prev{
+				background-color: rgba(0,0,0,0.5);
+				width: 30px;
+				height: 60px;
+			}
+			/*下一个按钮*/
+			.swiper-button-next{
+				background-color: rgba(0,0,0,0.5);
+				width: 30px;
+				height: 60px;
+			}
+			/*今日特价*/
+			#todayOnSale{
+				width: 1180px;
+				margin: 0 auto;
+				display: flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+			}
+			.content-todayOnSale{
+				width: 218px;
+				height: 331px;
+				border: 1px solid #e1e1e1;
+				background-color: white;
+				margin-bottom: 20px;
+			}
+			.content-todayOnSale:hover{
+				border: 1px solid hotpink;
+			}
+			/*评论页底部的页面按钮-------*/
+			#goodsJudgeBottom{
+				min-width: 1180px;
+			    color: #666;
+			    display: flex;
+			   	justify-content: center;
+			}
+			.goodsJudgeBottomBtn{
+				list-style-type: none;
+				text-align: center;
+				margin: 20px 0;
+				overflow: hidden;
+				 display: inline-block;
+			}
+			.goodsJudgeBottomBtn li{
+				float: left;	 
+			}
+			/*留言导航页面 li里的a标签设置*/
+			.goodsJudgeBottomBtn li{
+				text-decoration: none;
+				color:#666666;
+			    border: 1px solid #D2D2D2;
+			    border-right: 0;
+			    font-size: 16px;	
+			  	padding: 0 15px;
+			    background-color: #FFF;
+			    display: inline-block;
+			    height: 32px;
+			    line-height: 32px;
+			}
+			/*首页按钮和尾页按钮的设置*/
+			.goodsJudgeBottomBtn li:nth-child(1) ,.goodsJudgeBottomBtn li:last-child {
+				color: #008BDD;
+			    margin: 0 15px;
+			    border-right: 1px solid #D2D2D2;
+			}
+			.goodsJudgeBottomBtn li:nth-last-of-type(2) {
+			    border-right: 1px solid #D2D2D2;
+			}
+			.goodsJudgeBottomBtn li:nth-child(6) {
+			    border-top:0;
+			    border-bottom: 0;
+			    /*background-color: #f2f2f2;*/
+			}
+			/*设置输入页号跳转评论页*/
+			.goodsJudgeBottmJump{
+				margin-left: 10px;
+				font-size: 16px;
+				height: 34px;
+				margin-top: 20px;
+			}
+			.goodsJudgeBottmJump input[type=text]{
+				width: 30px;
+				height: 31px;
+				padding: 0 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="div1"></div>
+		<div id="selectMenu">
+			<div id="pullDown">
+				<!--行业分类-->
+				<span id="tradeClassify">
+					<div>
+						行业分类
+						<img src="img/homePage/whiteJianTou.png"/>
+					</div>
+				</span>
+				<!--行业分类下拉内容-->
+				<div id="tradeClassify_pullDown">
+					<!--左侧分类-->
+					<ul id="pullDownLeft">
+						<li>
+							服装超市
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							建材装修
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							休闲娱乐
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							生活服务
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							3C市场
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							丽人
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+				      		本地生活
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							购物
+				      		<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+			 				电子数码
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+					</ul>
+					<!--详细内容-->
+					<div id="pullDownRight">
+						<ul>
+							<li>
+								<a href="./HLAhome.html" style="text-decoration: none;color:white">海澜之家</a>
+							</li>
+						    <li>Adidas</li>
+						</ul>
+						<ul>
+							<li>全友家私</li>
+							<li>居然之家</li>
+						</ul>
+						<ul>
+							<li>steam</li>
+							<li>育碧</li>
+						</ul>
+						<ul>
+							<li>美团外卖</li>
+							<li>百度糯米</li>
+						</ul>
+						<ul>
+							<li>iphone</li>
+							<li>华为</li>
+						</ul>
+						<ul>
+				       		<li>春纪</li>
+							<li>巴黎欧莱雅</li>
+						</ul>
+						<ul>
+							<li>同城二手</li>
+							<li>小时工</li>
+						</ul>
+						<ul>
+							<li>淘宝</li>
+							<li>京东</li>
+						</ul>
+						<ul>
+							<li>佳能</li>
+							<li>索尼</li>
+						</ul>
+					</div>
+				</div>
+				
+				<!--上方选项-->
+				<ul id="optionsMenu">
+					<li><a href="./homePage.html">首页</a></li>
+					<li><a href="./choiceShop.html">精选商家</a></li>
+					<li><a href="./todayOnSale.html">今日特价</a></li>
+					<li><a href="./pointMall.html">积分商城</a></li>
+					<li><a href="./joinYH.html">加入易和</a></li>
+					<li>
+						<a href="###" id="onlineService">在线客服</a>
+					</li>
+				</ul>
+				<!--在线客服下拉内容-->
+				<div id="serviceContent">
+					<img src="img/homePage/keFuBack.png"/>
+					<div id="QQServices">
+						<div class="QQService">
+							<img src="img/homePage/QQlogo.png"/>
+							QQ客服1
+						</div>
+						<div class="QQService">
+							<img src="img/homePage/QQlogo.png"/>
+							QQ客服2
+						</div>
+						<div class="QQService">
+							<img src="img/homePage/QQlogo.png"/>
+							QQ客服3
+						</div>
+					</div>
+					<img src="img/homePage/QRCode.png" id="serviceCode"/>
+				</div>
+			</div>
+		</div>
+		<!--轮播图01-->
+		<div class="swiper-container" id="swiper-container01">
+				<div class="swiper-wrapper">
+				    <div class="swiper-slide">
+				   	 	<img src="img/homePage/lunbo5.jpg"/>
+				    </div>
+				    <div class="swiper-slide">
+				   	 	<img src="img/homePage/lunbo4.jpg"/>
+				    </div>
+				    <div class="swiper-slide">
+				    		<img src="img/homePage/lunbo1.jpg"/>
+				    </div>
+				    <div class="swiper-slide">
+				    		<img src="img/homePage/lunbo2.jpg"/>
+				    </div>
+				    <div class="swiper-slide">
+				   	 	<img src="img/homePage/lunbo3.jpg"/>
+				    </div>
+			  	</div>
+			  	<div class="swiper-pagination"></div>
+			</div>
+		<!--限量抢购-->
+		<div class="titleAD" id="rushBuy">
+			<span class="ADSpan1">限量</span>
+			<span class="ADSpan2">抢购</span>
+			<span class="ADSpan3">每日精选12款特价商品,天天送不停</span>
+		</div>
+		<!--轮播图02-->
+		<div class="swiper-container" id="swiper-container02">
+				<div class="swiper-wrapper">
+				    <div class="swiper-slide">
+				    		<div class="swiper-rushBuy">
+				    			<img src="img/todayOnSale/rushBuy01.png"/>
+				    			<div class="swiper-rushBuy-text">
+					    			<p>自家礼包送亲人,送朋友的不二选择自家礼包送亲人...</p>
+					    			<span class="swiper-span01">¥ 11.8</span>
+					    			<span class="swiper-span02">¥ 20.0</span>
+				    			</div>
+				    		</div>
+				    </div>
+				    <div class="swiper-slide">
+				   	 	<div class="swiper-rushBuy">
+				    			<img src="img/todayOnSale/rushBuy02.png"/>
+				    			<div class="swiper-rushBuy-text">
+					    			<p>自家礼包送亲人,送朋友的不二选择自家礼包送亲人...</p>
+					    			<span class="swiper-span01">¥ 11.8</span>
+					    			<span class="swiper-span02">¥ 20.0</span>
+				    			</div>
+				    		</div>
+				    </div>
+				    <div class="swiper-slide">
+				    		<div class="swiper-rushBuy">
+				    			<img src="img/todayOnSale/rushBuy03.png"/>
+				    			<div class="swiper-rushBuy-text">
+					    			<p>自家礼包送亲人,送朋友的不二选择自家礼包送亲人...</p>
+					    			<span class="swiper-span01">¥ 11.8</span>
+					    			<span class="swiper-span02">¥ 20.0</span>
+				    			</div>
+				    		</div>
+				    </div>
+				    <div class="swiper-slide">
+				    		<div class="swiper-rushBuy">
+				    			<img src="img/todayOnSale/rushBuy04.png"/>
+				    			<div class="swiper-rushBuy-text">
+					    			<p>自家礼包送亲人,送朋友的不二选择自家礼包送亲人...</p>
+					    			<span class="swiper-span01">¥ 11.8</span>
+					    			<span class="swiper-span02">¥ 20.0</span>
+				    			</div>
+				    		</div>
+				    </div>
+				    <div class="swiper-slide">
+				    		<div class="swiper-rushBuy">
+				    			<img src="img/todayOnSale/rushBuy05.jpg"/>
+				    			<div class="swiper-rushBuy-text">
+					    			<p>自家礼包送亲人,送朋友的不二选择自家礼包送亲人...</p>
+					    			<span class="swiper-span01">¥ 11.8</span>
+					    			<span class="swiper-span02">¥ 20.0</span>
+				    			</div>
+				    		</div>
+				    </div>
+				    <div class="swiper-slide">
+				    		<div class="swiper-rushBuy">
+				    			<img src="img/todayOnSale/rushBuy07.jpg"/>
+				    			<div class="swiper-rushBuy-text">
+					    			<p>自家礼包送亲人,送朋友的不二选择自家礼包送亲人...</p>
+					    			<span class="swiper-span01">¥ 11.8</span>
+					    			<span class="swiper-span02">¥ 20.0</span>
+				    			</div>
+				    		</div>
+				    </div>
+				    <div class="swiper-slide">
+				    		<div class="swiper-rushBuy">
+				    			<img src="img/todayOnSale/rushBuy06.jpg"/>
+				    			<div class="swiper-rushBuy-text">
+					    			<p>自家礼包送亲人,送朋友的不二选择自家礼包送亲人...</p>
+					    			<span class="swiper-span01">¥ 11.8</span>
+					    			<span class="swiper-span02">¥ 20.0</span>
+				    			</div>
+				    		</div>
+				    </div>
+				    <div class="swiper-slide">
+				    		<div class="swiper-rushBuy">
+				    			<img src="img/todayOnSale/rushBuy08.jpg"/>
+				    			<div class="swiper-rushBuy-text">
+					    			<p>自家礼包送亲人,送朋友的不二选择自家礼包送亲人...</p>
+					    			<span class="swiper-span01">¥ 11.8</span>
+					    			<span class="swiper-span02">¥ 20.0</span>
+				    			</div>
+				    		</div>
+				    </div>
+			  	</div>
+			  	   <div class="swiper-button-prev swiper-button-white"></div>
+    				   <div class="swiper-button-next swiper-button-white"></div>
+			</div>
+		<!--今日特价-->
+		<div class="titleAD" id="rushBuy">
+			<span class="ADSpan1">今日</span>
+			<span class="ADSpan2">特价</span>
+			<span class="ADSpan3">Commodity</span>
+		</div>
+		<!--特价内容-->
+		<div id="todayOnSale">
+			<div class="content-todayOnSale">
+				<img src="img/todayOnSale/OnSale01.png"/>
+				<div class="swiper-rushBuy-text">
+					<p>自家礼包送亲人,送朋友的不二选择自家礼包送亲人...</p>
+					<span class="swiper-span01">¥ 11.8</span>
+					<span class="swiper-span02">¥ 20.0</span>
+				</div>
+			</div>
+			<div class="content-todayOnSale">
+				<img src="img/todayOnSale/OnSale02.png"/>
+				<div class="swiper-rushBuy-text">
+					<p>自家礼包送亲人,送朋友的不二选择自家礼包送亲人...</p>
+					<span class="swiper-span01">¥ 11.8</span>
+					<span class="swiper-span02">¥ 20.0</span>
+				</div>
+			</div>
+			<div class="content-todayOnSale">
+				<img src="img/todayOnSale/OnSale03.png"/>
+				<div class="swiper-rushBuy-text">
+					<p>自家礼包送亲人,送朋友的不二选择自家礼包送亲人...</p>
+					<span class="swiper-span01">¥ 11.8</span>
+					<span class="swiper-span02">¥ 20.0</span>
+				</div>
+			</div>
+			<div class="content-todayOnSale">
+				<img src="img/todayOnSale/OnSale04.png"/>
+				<div class="swiper-rushBuy-text">
+					<p>自家礼包送亲人,送朋友的不二选择自家礼包送亲人...</p>
+					<span class="swiper-span01">¥ 11.8</span>
+					<span class="swiper-span02">¥ 20.0</span>
+				</div>
+			</div>
+			<div class="content-todayOnSale">
+				<img src="img/todayOnSale/OnSale05.png"/>
+				<div class="swiper-rushBuy-text">
+					<p>自家礼包送亲人,送朋友的不二选择自家礼包送亲人...</p>
+					<span class="swiper-span01">¥ 11.8</span>
+					<span class="swiper-span02">¥ 20.0</span>
+				</div>
+			</div>
+			<div class="content-todayOnSale">
+				<img src="img/todayOnSale/OnSale01.png"/>
+				<div class="swiper-rushBuy-text">
+					<p>自家礼包送亲人,送朋友的不二选择自家礼包送亲人...</p>
+					<span class="swiper-span01">¥ 11.8</span>
+					<span class="swiper-span02">¥ 20.0</span>
+				</div>
+			</div>
+			<div class="content-todayOnSale">
+				<img src="img/todayOnSale/OnSale02.png"/>
+				<div class="swiper-rushBuy-text">
+					<p>自家礼包送亲人,送朋友的不二选择自家礼包送亲人...</p>
+					<span class="swiper-span01">¥ 11.8</span>
+					<span class="swiper-span02">¥ 20.0</span>
+				</div>
+			</div>
+			<div class="content-todayOnSale">
+				<img src="img/todayOnSale/OnSale03.png"/>
+				<div class="swiper-rushBuy-text">
+					<p>自家礼包送亲人,送朋友的不二选择自家礼包送亲人...</p>
+					<span class="swiper-span01">¥ 11.8</span>
+					<span class="swiper-span02">¥ 20.0</span>
+				</div>
+			</div>
+			<div class="content-todayOnSale">
+				<img src="img/todayOnSale/OnSale04.png"/>
+				<div class="swiper-rushBuy-text">
+					<p>自家礼包送亲人,送朋友的不二选择自家礼包送亲人...</p>
+					<span class="swiper-span01">¥ 11.8</span>
+					<span class="swiper-span02">¥ 20.0</span>
+				</div>
+			</div>
+			<div class="content-todayOnSale">
+				<img src="img/todayOnSale/OnSale05.png"/>
+				<div class="swiper-rushBuy-text">
+					<p>自家礼包送亲人,送朋友的不二选择自家礼包送亲人...</p>
+					<span class="swiper-span01">¥ 11.8</span>
+					<span class="swiper-span02">¥ 20.0</span>
+				</div>
+			</div>
+			<div class="content-todayOnSale">
+				<img src="img/todayOnSale/OnSale01.png"/>
+				<div class="swiper-rushBuy-text">
+					<p>自家礼包送亲人,送朋友的不二选择自家礼包送亲人...</p>
+					<span class="swiper-span01">¥ 11.8</span>
+					<span class="swiper-span02">¥ 20.0</span>
+				</div>
+			</div>
+		</div>
+		<!--评论底部导航页-->
+		<div id="goodsJudgeBottom">
+			<ul class="goodsJudgeBottomBtn">
+				<li>首页</li>
+				<li>上一页</li>
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>...</li>
+				<li>9</li>
+				<li>10</li>
+				<li>下一页</li>
+				<li>尾页</li>
+			</ul> 
+				<p class="goodsJudgeBottmJump">
+					共 <span>10</span> 页, 到第 &nbsp;<input type="text" />&nbsp;页 &nbsp;
+					<input style="width:90px;height:34px;border-radius:5px;color:#fff;font-size:18px;background-color: #008DE1;border:0" type="button" value="确定"/>&nbsp;&nbsp;
+					共 <span>10</span> 条</p>
+		</div>
+		<div class="footer"></div>
+	</body>
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/swiper-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/pullDown.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/headAndFoot.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/pullDownJs.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		var mySwiper = new Swiper('#swiper-container01', {
+			autoplay: 2000,
+			speed:800,
+			loop : true,
+			pagination : '#swiper-container01 > .swiper-pagination',
+			paginationType : 'bullets',
+			paginationClickable :true,
+			autoplayDisableOnInteraction : false,
+			grabCursor : true
+		})
+		var mySwiper = new Swiper('#swiper-container02', {
+			autoplayDisableOnInteraction : false,
+			grabCursor : true,
+			prevButton:'.swiper-button-prev',
+			nextButton:'.swiper-button-next',
+			slidesPerView : 4,
+			spaceBetween : 20
+		})
+	</script>
+</html>

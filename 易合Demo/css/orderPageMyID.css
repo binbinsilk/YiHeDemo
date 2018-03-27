@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#orderPageMyIDRight{
+	width: 946px;
+	/*border: 1px solid rgb(191,191,191);*/
+	border:1px solid #D3D3D3;
+	height: 353px;
+	background-color: white;
+}
+/*个人信息*/
+#orderPageMyIDRightTop1{
+	width: 946px;
+	height: 141px;
+	background-color: #fff4ec;
+	padding-top: 20px;
+}
+.orderPageMyIDRightTab{
+	width: 903px;
+	margin: 0 auto;
+}
+.orderPageMyIDRightTopD1,
+.orderPageMyIDRightTopD2{
+	width: 150px;
+	text-align: center;
+}
+.orderPageMyIDRightTopD1{
+	color: #ec6a17; 
+	margin-top: 10px;
+}
+.orderPageMyIDRightTopD2{
+	margin-bottom: 10px;
+}
+#orderPageMyIDRightTop2{
+	width: 946px;
+	height: 212px;
+}
+#orderPageMyIDRightBottom{
+	width: 946px;
+	height: 289px;
+	/*border: 1px solid rgb(191,191,191);*/
+	border:1px solid #D3D3D3;
+	margin-top: 20px;
+	background-color: white;
+}
+#orderPageMyIDRightBottom img{
+	width: 100%;
+}
+/*会员等级与经验*/
+.orderMemRank{
+	/*border: 1px solid red;*/
+	width: 906px;
+	height: 50px;
+	margin: 0 auto;
+	line-height: 50px;
+}
+/*会员等级*/
+.rankExperience1{
+	/*border: 1px solid red;*/
+	width: 890px;
+	margin: 0 auto;
+	margin-top: 10px;
+	
+}
+.rankExperience1 div{
+	display:inline-block;
+}
+.orderRank1,.orderRank2{
+	width: 30px;
+	height: 30px;
+	color: white;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 30px;
+}
+.orderRank1{
+	background-color: #ec6a17;
+}
+.orderRank2{
+	background-color: #d3d3d3;
+}
+#orderExperienceDiv{
+	/*display: flex;*/
+	border: 1px solid red;
+	width: 105px;
+	height: 5px;
+	/*justify-content: center;*/
+}
+.orderExperience1{
+	width: 100px;
+	border: 2px solid #ec6a17;
+	
+}
+.orderExperience11{
+	border: 2px solid  #ec6a17;
+	width: 18px;
+	display: inline-block;
+	float: left;
+}
+.orderExperience12{
+	width: 78px;
+	border: 2px solid #d3d3d3;
+	/*margin-left: -3px;*/
+	float: left;
+}
+
+.orderExperience2{
+	width: 100px;
+	border: 2px solid #d3d3d3;
+}
+/*经验条*/
+.rankExperience2{
+	width: 906px;
+	margin: 0 auto;
+	margin-top: 10px;
+	/*border: 1px solid red;*/
+}
+.rankExperience2 p{
+	display: inline-block;
+}
+.rankExperience2 p:nth-child(2){
+	/*border: 1px solid red;*/
+	margin-left: 85px;
+}
+.rankExperience2 p:nth-child(3),
+.rankExperience2 p:nth-child(4),
+.rankExperience2 p:nth-child(5),
+.rankExperience2 p:nth-child(6){
+	/*border: 1px solid red;*/
+	margin-left: 80px;
+}
+.rankExperience2 p:nth-child(7){
+	/*border: 1px solid red;*/
+	margin-left: 60px;
+}

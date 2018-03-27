@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>易和生活港 | 头部封装</title>
+		<link rel="stylesheet" type="text/css" href="css/head.css"/>
+	</head>
+	<body>
+		<!--首部-->
+		<div id="homePage_headWrap">
+			<!--首部顶部-->
+			<div id="homePage_headTop">
+				<!--顶部内容-->
+				<div id="homePage_headTopContent">
+					<!--所在城市-->
+					<div id="homePage_headTopContent_liveWhere">
+						<span>所在城市 :&nbsp;</span>
+						<a id="adressName">北京</a>
+						<img src="img/homePage/xiaJianTou.png"/>
+					</div>
+					<!--顶部选项-->
+					<ul id="homePage_headTopContent_menu">
+						<li>
+							<a>登录</a>
+							<a style="display: none;">您好，<span id="homePage_headTopContent_span">13033965207</span></span></a>
+						</li>
+						<li class="withBorder">
+							<a >注册</a>
+							<a >退出</a>
+						</li>
+						<li class="withBorder"><a >我的订单</a></li>
+						<li class="withBorder"><a >我的消息</a></li>
+						<li class="withBorder"><a >我是商家</a></li>
+						<li><a href="">
+							<img src="img/homePage/phone.png"/>
+							<span>400-800-8820</span>
+						</a></li>
+					</ul>
+				</div>
+			</div>
+			<!--首部中部-->
+			<div id="homePage_headMiddle">
+				<div id="homePage_headMiddleWrap">
+					<!--易和LOGO-->
+					<a href="./homePage.html"><img src="img/homePage/yiLifeLogo.png"/></a>
+					<!--搜索框部分-->
+					<div id="homePage_headMiddle_search">
+						<!--商家或商品-->
+						<div class="select">
+							<div class="seller">商家</div>
+							<div class="goods">商品</div>
+						</div>
+						<!--搜索框-->
+						<input type="text" id="searchInput"/>
+						<!--放大镜-->
+						<a id="aObj">
+							<div class="fangdajing">
+								<img src="img/homePage/fangDaJing.png"/>
+							</div>
+						</a>	
+						<!--热门搜索-->
+						<ul id='sellerul'>
+							<li><strong>热门:</strong></li>
+							<li>	<a href="">酒店</a></li>
+							<li><a href="">洗车</a></li>
+							<li><a href="">餐饮</a></li>
+							<li><a href="">进口</a></li>
+							<li><a href="">旅游</a></li>
+							<li><a href="">电影</a></li>
+						</ul>
+						<ul id="goodsul">
+							<li><strong>热门:</strong></li>
+							<li>	<a href="">iphone7</a></li>
+							<li><a href="">秋裤</a></li>
+							<li><a href="">鼓励师</a></li>
+						</ul>
+					</div>
+					<!--我的易和&购物车-->
+					<div id="myYHAndCart">
+						<a >
+							<div id="myYH">
+								<img  src="img/homePage/myYH.png"/>
+								<span id="myYihe">我的易和</span>
+								<img src="img/homePage/daoSanJiao.png"/>
+							</div>
+						</a>
+						<a >
+							<div id="cart">
+								<img  src="img/homePage/cart.png"/>
+								<span id="shopJump">购物车</span>
+								<img src="img/rec.png" alt="" style="position: absolute;top:-12px;right:10px"/>
+								<span id="shopNumOfhome" style="position: absolute;top:-19px;right:16px;color:white;">0</span>
+								<img src="img/homePage/daoSanJiao.png"/>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+	$('.withBorder').children().eq(1).hide();
+		//顶部地区点击事件
+		$('#adressName').html(localStorage.addressName);
+		$('#adressName').click(function () {
+			location.href = './changeCity.html';
+		})
+		if (localStorage.userphone) {
+			$('#homePage_headTopContent_menu li').eq(0).children().eq(0).hide();
+			$('#homePage_headTopContent_menu li').eq(0).children().eq(1).show();
+			$('#homePage_headTopContent_span').html(localStorage.userphone);
+			$('.withBorder').children().eq(0).hide();
+			$('.withBorder').children().eq(1).show();
+			$('.withBorder').children().eq(1).click(function () {
+				alert('确认退出？');
+//				localStorage.clear();
+				localStorage.userphone = '';
+//				localStorage.addressName = '';
+				localStorage.clothColor = '';
+				localStorage.clothNum = '';
+				localStorage.clothSize = '';
+				localStorage.county = '';
+				localStorage.province = '';
+				localStorage.city = '';
+				localStorage.nameOfGetGoods = '';
+				localStorage.color = '';
+				localStorage.size = '';
+				localStorage.numofshop = '';
+				localStorage.telephoneFix = '';
+				localStorage.telephoneFixBefore = '';
+				localStorage.mobileTelephone = '';
+				localStorage.orders = 0;
+				localStorage.shopOfnumhome = 0;
+				
+			});		
+		} else{
+			$('#homePage_headTopContent_menu li').eq(0).children().eq(0).show();
+			$('#homePage_headTopContent_menu li').eq(0).children().eq(1).hide();
+		}
+		
+		var aObj = document.getElementById("aObj");
+		//点击商品事件
+		$('.goods').click(function () {
+			$('.goods').css({
+				backgroundColor: '#008de1',
+				color:'white'
+			});		
+			$('.seller').css({
+				backgroundColor: 'white',
+				color:'black'
+			});
+			$('#goodsul').show();
+			$('#sellerul').hide();
+		});
+		//点击商家事件
+		$('.seller').click(function () {
+			$('.goods').css({
+				backgroundColor: 'white',
+				color:'black'
+			});
+			$('.seller').css({
+				backgroundColor: '#008de1',
+				color:'white'
+			});
+			$('#goodsul').hide();
+			$('#sellerul').show();
+		});
+		
+		$('.fangdajing').click(function () {
+			if ($('#searchInput').val()== '海澜之家') {
+				localStorage.words = $('#searchInput').val();
+				aObj.href = './shopSearch.html';
+               	
+			} else if($('#searchInput').val()== '衬衫'){
+				localStorage.words = $('#searchInput').val();
+				aObj.href =  './goodsSearch.html';
+			}else{
+				aObj.href = './seekIsNull.html';
+			}				
+			});
+		
+		$('#shopNumOfhome').html(localStorage.shopOfnumhome);
+		
+		//点击  我的易和 跳转
+		$('#myYihe').click(function () {
+			window.parent.location.href = './orderPageMyID.html';
+		});
+		//点击购物车跳转
+		$('#shopJump').click(function () {
+			window.parent.location.href = './shopPageofnull.html';
+		})
+		
+		
+		//注册按钮跳转
+		$('#homePage_headTopContent_menu li').eq(0).children().eq(0).click(function () {
+			window.parent.location.href = './loginPage.html';
+		});
+		//登录按钮跳转
+		$('#homePage_headTopContent_menu li').eq(1).click(function () {
+			
+			window.parent.location.href = './registerPage.html';
+		});
+		
+		//我的订单跳转
+		$('#homePage_headTopContent_menu li').eq(2).click(function () {			
+				window.parent.location.href = './orderPageOrderForm.html';			
+		});
+		//我的消息跳转
+		$('#homePage_headTopContent_menu li').eq(3).click(function () {
+			window.parent.location.href = './orderPageMyNews.html';
+		});
+		//我是商家跳转
+		$('#homePage_headTopContent_menu li').eq(4).click(function () {
+			window.parent.location.href = './businessPage.html';
+		});
+//		localStorage.clear();
+//		console.log(localStorage);
+	</script>
+</html>

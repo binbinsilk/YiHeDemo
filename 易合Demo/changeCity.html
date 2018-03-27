@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>易和生活港 | 切换城市</title>
+		<link rel="stylesheet" type="text/css" href="css/pullDown.css"/>
+		<link rel="stylesheet" type="text/css" href="css/changeCity.css"/>
+	</head>
+	<body>
+		<!--首部-->
+		<div id="div1"></div>
+		<!--<iframe src="head.html" width="100%" height="169px" scrolling="no" frameborder="0"></iframe>-->
+		<!--下拉-->
+		<div id="selectMenu">
+			<div id="pullDown">
+				<!--行业分类-->
+				<span id="tradeClassify">
+					<div>
+						行业分类
+						<img src="img/homePage/whiteJianTou.png"/>
+					</div>
+				</span>
+				<!--行业分类下拉内容-->
+				<div id="tradeClassify_pullDown">
+					<!--左侧分类-->
+					<ul id="pullDownLeft">
+						<li>
+							服装超市
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							建材装修
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							休闲娱乐
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							生活服务
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							3C市场
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							丽人
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+				      		本地生活
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+							购物
+				      		<img src="img/homePage/rightJianTou.png"/>
+						</li>
+						<li>
+			 				电子数码
+							<img src="img/homePage/rightJianTou.png"/>
+						</li>
+					</ul>
+					<!--详细内容-->
+					<div id="pullDownRight">
+						<ul>
+							<li>
+								<a href="./HLAhome.html" style="text-decoration: none;color:white">海澜之家</a>
+							</li>
+						    <li>Adidas</li>
+						</ul>
+						<ul>
+							<li>全友家私</li>
+							<li>居然之家</li>
+						</ul>
+						<ul>
+							<li>steam</li>
+							<li>育碧</li>
+						</ul>
+						<ul>
+							<li>美团外卖</li>
+							<li>百度糯米</li>
+						</ul>
+						<ul>
+							<li>iphone</li>
+							<li>华为</li>
+						</ul>
+						<ul>
+				       		<li>春纪</li>
+							<li>巴黎欧莱雅</li>
+						</ul>
+						<ul>
+							<li>同城二手</li>
+							<li>小时工</li>
+						</ul>
+						<ul>
+							<li>淘宝</li>
+							<li>京东</li>
+						</ul>
+						<ul>
+							<li>佳能</li>
+							<li>索尼</li>
+						</ul>
+					</div>
+				</div>
+				
+				<!--上方选项-->
+				<ul id="optionsMenu">
+					<li><a href="./homePage.html">首页</a></li>
+					<li><a href="./choiceShop.html">精选商家</a></li>
+					<li><a href="./todayOnSale.html">今日特价</a></li>
+					<li><a href="./pointMall.html">积分商城</a></li>
+					<li><a href="./joinYH.html">加入易和</a></li>
+					<li>
+						<a href="###" id="onlineService">在线客服</a>
+					</li>
+				</ul>
+				<!--在线客服下拉内容-->
+				<div id="serviceContent">
+					<img src="img/homePage/keFuBack.png"/>
+					<div id="QQServices">
+						<div class="QQService">
+							<img src="img/homePage/QQlogo.png"/>
+							QQ客服1
+						</div>
+						<div class="QQService">
+							<img src="img/homePage/QQlogo.png"/>
+							QQ客服2
+						</div>
+						<div class="QQService">
+							<img src="img/homePage/QQlogo.png"/>
+							QQ客服3
+						</div>
+					</div>
+					<img src="img/homePage/QRCode.png" id="serviceCode"/>
+				</div>
+			</div>
+		</div>
+		
+		<!--切换城市-->	
+		<div id="changeCity">
+			<!--您当前位置-->
+			<div id="yourAddress">
+				<span>您当前的位置: &nbsp;首页 > <span class="HLAhomeSpan">切换城市</span></span>
+			</div>
+			<!--A-Z城市-->
+			<div id="A-Z_City">
+				<ul id="selectCityMenu">
+					<li>
+						<span>当前城市:</span>
+						<span class="selectCity-span1">北京</span>
+					</li>
+					<li id="hotCity">
+						<span>热门城市:</span>
+						<span class="selectCity-span2">上海</span>
+						<span class="selectCity-span2">南京</span>
+					</li>
+					<li>
+						<span>最近访问:</span>
+						<span class="selectCity-span3">北京</span>
+					</li>
+				</ul>
+				
+				<ul class="cityUl" >
+					<li>
+						<span>A</span>
+						<ul class="A-Z">
+							<li>安康</li>
+							<li>安宁</li>
+							<li>安庆</li>
+							<li>鞍山</li>
+							<li>安顺</li>
+							<li>安阳</li>
+						</ul>
+					</li>
+					<li>
+						<span>B</span>
+						<ul class="A-Z">
+							<li>北京</li>
+							<li>白城</li>
+							<li>百色</li>
+							<li>白山</li>
+							<li>保定</li>
+							<li>宝鸡</li>
+							<li>包头</li>
+							<li>北海</li>
+							<li>蚌埠</li>
+							<li>本溪</li>
+							<li>毕节</li>
+							<li>滨州</li>
+							<li>亳州</li>
+						</ul>
+					</li>
+					<li>
+						<span>C</span>
+						<ul class="A-Z">
+							<li>沧州</li>
+							<li>长春</li>
+							<li>常德</li>
+							<li>昌吉</li>
+							<li>长沙</li>
+							<li>长治</li>
+							<li>常州</li>
+							<li>巢湖</li>
+							<li>朝阳</li>
+							<li>潮州</li>
+							<li>承德</li>
+							<li>成都</li>
+							<li>郴州</li>
+							<li>赤峰</li>
+							<li>池州</li>
+							<li>重庆</li>
+							<li>崇左</li>
+							<li>滁州</li>
+						</ul>
+					</li>
+					<li>
+						<span>D</span>
+						<ul class="A-Z">
+							<li>大连</li>
+							<li>大庆</li>
+							<li>大同</li>
+							<li>丹东</li>
+							<li>大冶</li>
+							<li>东营</li>
+							<li>登封</li>
+							<li>大理</li>
+							<li>德州</li>
+							<li>东莞</li>
+							<li>达州</li>
+							<li>定西</li>
+							<li>大石桥</li>
+						</ul>
+					</li>
+					<li>
+						<span>E</span>
+						<ul class="A-Z">
+							<li>鄂尔多斯</li>
+							<li>鄂州</li>
+							<li>恩施</li>
+						</ul>
+					</li>
+					<li>
+						<span>F</span>
+						<ul class="A-Z">
+							<li>抚顺</li>
+							<li>阜新</li>
+							<li>阜阳 </li>
+							<li>福州</li>
+							<li>抚州</li>
+							<li>佛山</li>
+							<li>防城港</li>
+							<li>凤凰</li>
+						</ul>
+					</li>
+					<li>
+						<span>G</span>
+						<ul class="A-Z">
+							<li>广州</li>
+							<li>贵阳</li>
+							<li>桂林</li>
+							<li>赣州</li>
+							<li>贵港</li>
+							<li>广元</li>
+							<li>广安</li>
+							<li>固原</li>
+						</ul>
+					</li>
+					<li>
+						<span>H</span>
+						<ul class="A-Z">
+							<li>杭州</li>
+							<li>哈尔滨</li>
+							<li>呼和浩特</li>
+							<li>合肥</li>
+							<li>海口</li>
+							<li>邯郸</li>
+							<li>湖州</li>
+							<li>黄山</li>
+							<li>黄石</li>
+							<li>黄岗</li>
+							<li>衡阳</li>
+							<li>汉中</li>
+							<li>菏泽</li>
+							<li>衡水</li>
+							<li>呼伦贝尔</li>
+							<li>葫芦岛</li>
+							<li>淮南</li>
+							<li>淮北</li>
+							<li>鹤壁</li>
+							<li>淮安</li>
+							<li>怀化</li>
+							<li>惠州</li>
+							<li>河源</li>
+							<li>贺州</li>
+							<li>河池</li>
+							<li>鹤岗</li>
+							<li>黑河</li>
+						</ul>
+					</li>
+					<li>
+						<span>J</span>
+						<ul class="A-Z">
+							<li>济南</li>
+							<li>吉林</li>
+							<li>九江</li>
+							<li>景德镇</li>
+							<li>金昌</li>
+							<li>揭阳</li>
+							<li>吉安</li>
+							<li>锦州</li>
+							<li>鸡西</li>
+							<li>佳木斯</li>
+							<li>金华</li>
+							<li>济宁</li>
+							<li>焦作</li>
+							<li>荆州</li>
+							<li>荆门</li>
+							<li>嘉兴</li>
+							<li>江门</li>
+							<li>酒泉</li>
+							<li>嘉峪关</li>
+						</ul>
+					</li>
+					<li>
+						<span>K</span>
+						<ul class="A-Z">
+							<li>昆明</li>
+							<li>开封</li>
+							<li>克拉玛依</li>
+						</ul>
+					</li>
+					<li>
+						<span>L</span>
+						<ul class="A-Z">
+							<li>兰州</li>
+							<li>洛阳</li>
+							<li>柳州</li>
+							<li>乐山</li>
+							<li>临沧</li>
+							<li>陇南</li>
+							<li>丽江</li>
+							<li>连云港</li>
+							<li>廊坊</li>
+							<li>辽阳</li>
+							<li>辽源</li>
+							<li>泸州</li>
+							<li>漯河</li>
+							<li>来宾</li>
+							<li>娄底</li>
+						</ul>
+					</li>
+					<li>
+						<span>M</span>
+						<ul class="A-Z">
+							<li>绵阳</li>
+							<li>牡丹江</li>
+							<li>丽水</li>
+							<li>马鞍山</li>
+							<li>六安</li>
+							<li>龙岩</li>
+							<li>莱芜</li>
+							<li>临沂</li>
+							<li>聊城</li>
+							<li>茂名</li>
+							<li>梅州</li>
+							<li>眉山</li>
+						</ul>
+					</li>
+					<li>
+						<span>N</span>
+						<ul class="A-Z">
+							<li>南京</li>
+							<li>宁波</li>
+							<li>南通</li>
+							<li>南昌</li>
+							<li>南平</li>
+							<li>南阳</li>
+							<li>宁德</li>
+							<li>南宁</li>
+							<li>内江</li>
+							<li>南充</li>
+						</ul>
+					</li>
+					<li>
+						<span>P</span>
+						<ul class="A-Z">
+							<li>莆田</li>
+							<li>萍乡</li>
+							<li>盘锦</li>
+							<li>攀枝花</li>
+							<li>平顶山</li>
+							<li>平遥</li>
+							<li>平凉</li>
+							<li>濮阳</li>
+							<li>莆田</li>
+							<li>普洱</li>
+						</ul>
+					</li>
+					<li>
+						<span>Q</span>
+						<ul class="A-Z">
+							<li>青岛</li>
+							<li>泉州</li>
+							<li>齐齐哈尔</li>
+							<li>秦皇岛</li>
+							<li>曲阜</li>
+							<li>七台河</li>
+							<li>秦州</li>
+							<li>衢州</li>
+							<li>曲靖</li>
+							<li>庆阳</li>
+							<li>清远</li>
+							<li>青州</li>
+						</ul>
+					</li>
+					<li>
+						<span>R</span>
+						<ul class="A-Z">
+							<li>日照</li>
+							<li>瑞安</li>
+						</ul>
+					</li>
+					<li>
+						<span>S</span>
+						<ul class="A-Z">
+							<li>上海</li>
+							<li>深圳</li>
+							<li>苏州</li>
+							<li>沈阳</li>
+							<li>石家庄</li>
+							<li>汕头</li>
+							<li>三亚</li>
+							<li>绍兴</li>
+							<li>十堰</li>
+							<li>上饶</li>
+							<li>四平</li>
+							<li>松原</li>
+							<li>宿迁</li>
+							<li>宿州</li>
+							<li>三明</li>
+							<li>三门峡</li>
+							<li>商丘</li>
+							<li>随州</li>
+							<li>邵阳</li>
+							<li>韶关</li>
+							<li>汕尾</li>
+							<li>遂宁</li>
+							<li>石嘴山</li>
+							<li>双鸭山</li>
+							<li>绥化</li>
+						</ul>
+					</li>
+					<li>
+						<span>T</span>
+						<ul class="A-Z">
+							<li>天津</li>
+							<li>唐山</li>
+							<li>太原</li>
+							<li>泰安</li>
+							<li>泰州</li>
+							<li>铁岭</li>
+							<li>通辽</li>
+							<li>通化</li>
+							<li>台州</li>
+							<li>铜陵</li>
+							<li>天水</li>
+						</ul>
+					</li>
+					<li>
+						<span>W</span>
+						<ul class="A-Z">
+							<li>武汉</li>
+							<li>无锡</li>
+							<li>乌鲁木齐</li>
+							<li>潍坊</li>
+							<li>芜湖</li>
+							<li>武夷山</li>
+							<li>渭南</li>
+							<li>乌海</li>
+							<li>乌兰察布</li>
+							<li>温州</li>
+							<li>威海</li>
+							<li>梧州</li>
+							<li>武威</li>
+							<li>吴忠</li>
+						</ul>
+					</li>
+					<li>
+						<span>X</span>
+						<ul class="A-Z">
+							<li>西安</li>
+							<li>厦门</li>
+							<li>西宁</li>
+							<li>襄樊</li>
+							<li>咸阳</li>
+							<li>湘潭</li>
+							<li>忻州</li>
+							<li>徐州</li>
+							<li>信阳</li>
+							<li>邢台</li>
+							<li>宣城</li>
+							<li>新余</li>
+							<li>新乡</li>
+							<li>孝感</li>
+							<li>咸宁</li>
+						</ul>
+					</li>
+					<li>
+						<span>Y</span>
+						<ul class="A-Z">
+							<li>烟台</li>
+							<li>银川</li>
+							<li>扬州</li>
+							<li>宜昌</li>
+							<li>岳阳</li>
+							<li>延安</li>
+							<li>营口</li>
+							<li>延吉</li>
+							<li>伊春</li>
+							<li>盐城</li>
+							<li>鹰潭</li>
+							<li>宜春</li>
+							<li>益阳</li>
+							<li>永州</li>
+							<li>阳江</li>
+							<li>云浮</li>
+							<li>玉林</li>
+							<li>宜宾</li>
+							<li>雅安</li>
+							<li>玉溪</li>
+						</ul>
+					</li>
+					<li>
+						<span>Z</span>
+						<ul class="A-Z">
+							<li>郑州</li>
+							<li>珠海</li>
+							<li>漳州</li>
+							<li>株洲</li>
+							<li>肇庆</li>
+							<li>自贡</li>
+							<li>舟山</li>
+							<li>张家界</li>
+							<li>遵义</li>
+							<li>湛江</li>
+							<li>张家口</li>
+							<li>朝阳</li>
+							<li>镇江</li>
+							<li>淄博</li>
+							<li>枣庄</li>
+							<li>中山</li>
+							<li>资阳</li>
+							<li>周口</li>
+							<li>驻马店</li>
+							<li>昭通</li>
+							<li>张掖</li>
+							<li>中卫</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer">
+			<!--<iframe src="foot.html" width="100%" height="436px" scrolling="no" frameborder="0"></iframe>-->
+		</div>
+	</body>
+	<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/pullDown.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/headAndFoot.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/pullDownJs.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+//	console.log(localStorage);
+$(function  () {
+	for (var $i = 0;$i < $('.selectCity-span2').length;$i++) {
+		$('.selectCity-span2').eq($i).click(function () {
+			$('.selectCity-span1').html($(this).html());			
+			$('.selectCity-span3').html($(this).html());
+			
+		});
+	}
+});
+
+$(function  () {
+	for (var $i = 0;$i < $('.A-Z li').length;$i++) {
+		$('.A-Z li').eq($i).click(function () {
+			console.log($(this))
+			$('.selectCity-span1').html($(this).html());
+			$('.selectCity-span3').html($(this).html());
+			//切换地区，将改变的地区存储到本地中
+			localStorage.addressName = $(this).html();
+			location.reload();
+		});
+		$('.selectCity-span1').html(localStorage.addressName);
+		$('.selectCity-span3').html(localStorage.addressName);
+	}
+});
+	</script>
+</html>

@@ -1,0 +1,248 @@
+body{
+	background-color: #f2f2f2;
+}
+#introduceHLA{
+	width: 1180px;
+	margin: 0 auto;
+}
+/*您当前位置*/
+#yourAddress{
+	padding: 20px 0;
+}
+.HLAhomeSpan{
+	color: #ec6a17;
+	cursor: pointer;
+}
+#intHLADetail{
+	height: 258px;
+	padding: 20px;
+	border: 1px solid #d3d3d3;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+}
+/*轮播图*/
+.lunbotu{
+	width: 360px;
+	height: 258px;
+}
+			/*海澜之家中间介绍部分*/
+			.intHLADetail-middle{
+				width: 460px;
+				height: 258px;
+				/*border: 1px solid red;*/
+			}
+			.intHLADetail-middle li{
+				list-style-type: none;
+				padding-bottom: 10px;
+				border-bottom: 1px solid #e3e3e3;
+			}
+			.intHLADetail-middle li:last-child{
+				border: 0;
+			}
+			.intHLADetail-middle h2{
+				color: #008de1;
+				margin-bottom: 10px;
+			}
+			.intHLADetail-middle-p1{
+				font-size: 12px;
+				line-height: 15px;
+			}
+			.intHLADetail-middle-p2{
+				font-size: 14px;
+				margin-top: 10px;
+			}
+			.intHLADetail-middle-p2 img{
+				vertical-align:bottom;
+				margin-right: 10px;
+			}
+			.intHLADetail-middle-p3 {
+				color: #ec6a17;
+				margin: 10px 0;
+			} 
+			/*右边*/
+			.intHLADetail-right{
+				width: 260px;
+				height: 258px;
+				/*border: 1px solid hotpink;*/
+				line-height: 39px;
+			}
+			.intHLADetail-right li{
+				list-style-type: none;
+				/*border: 1px solid blue;*/
+			}
+			.intHLADetail-right-span1{
+				font-weight: 500;
+				margin-right: 20px;
+				font-size: 14px;
+			}
+			.intHLADetail-right-span2{
+				font-size: 14px;
+				font-weight: thin;
+			}
+			.scoerLine{
+				margin-right: 10px;
+				vertical-align: middle;
+			}
+			#scoreType{
+				display: flex;
+				justify-content: space-between;
+			}
+			#scoreType div{
+				width: 32%;
+				font-size: 14px;
+				font-weight: 500;
+				padding: 5px 10px;
+				text-align: center;
+				border-right: 1px dashed #e3e3e3;
+			}
+			#scoreType div:last-child{
+				border: 0;
+			}
+			.scoreType-p1{
+				color: #ec6a17;
+			}
+			.QQServiceBlueP1{
+				float: left;
+				font-size: 14px;
+				font-weight: 500;
+				margin-right: 38px;
+			}
+			.QQServiceBlue{
+				display: inline-block;
+				background-color: #f9f9f9;
+				border: 1px solid #e3e3e3;
+				padding:  0 15px;
+				height: 30px;
+				font-size: 14px;
+				vertical-align: bottom;
+			}
+			/*全部商品*/
+			#allGoodsWrap{
+				width: 1178px;
+				margin: 20px auto;
+				border: 1px solid #d3d3d3;
+				background-color: white;
+			}
+			/*选择ul*/
+			#allGoodsSelect{
+				overflow: hidden;
+			}
+			#allGoodsSelect li{
+				list-style-type: none;
+				height: 48px;
+				line-height: 48px;
+				font-size: 18px;
+				padding: 0 24px;
+				background-color: #f8f8f8;
+				text-align: center;
+				float: left;
+				cursor: pointer;
+				color: #484848;
+				border-bottom: 1px solid #d3d3d3;
+				border-right: 1px solid #d3d3d3;
+			}
+			#allGoodsSelect li:nth-child(11){
+				line-height: 40px;
+				width: 51px;
+			}
+			#allGoodsSelect li:last-child{
+				border-right: 0;
+				color:#008de1;
+				background-Color:white;
+		    		border-top:2px solid #008de1;
+		    		border-bottom:0;
+			}
+			/*全部商品下内容*/
+			#allGoods{
+				padding: 20px;
+				display: flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+			}
+			.content-todayOnSale{
+				width: 218px;
+				height: 331px;
+				border: 1px solid #e1e1e1;
+				background-color: white;
+				margin-bottom: 20px;
+			}
+			.content-todayOnSale:hover{
+				border: 1px solid hotpink;
+			}
+			/*文字部分*/
+			.swiper-rushBuy-text{
+				height: 110px;
+				line-height: 30px;
+				padding: 10px;
+			}
+			.swiper-rushBuy-text p{
+				color: #666666;
+				font-size: 14px;
+			}
+			/*现价*/
+			.swiper-span01{
+				color: red;
+			}
+			/*原价*/
+			.swiper-span02{
+				font-size: 14px;
+				text-decoration: line-through;
+				float: right;
+			}
+			/*评论页底部的页面按钮-------*/
+			#goodsJudgeBottom{
+				min-width: 1180px;
+			    color: #666;
+			    display: flex;
+			   	justify-content: center;
+			}
+			.goodsJudgeBottomBtn{
+				list-style-type: none;
+				text-align: center;
+				margin: 20px 0;
+				overflow: hidden;
+				 display: inline-block;
+			}
+			.goodsJudgeBottomBtn li{
+				float: left;	 
+			}
+			/*留言导航页面 li里的a标签设置*/
+			.goodsJudgeBottomBtn li{
+				text-decoration: none;
+				color:#666666;
+			    border: 1px solid #D2D2D2;
+			    border-right: 0;
+			    font-size: 16px;	
+			  	padding: 0 15px;
+			    background-color: #FFF;
+			    display: inline-block;
+			    height: 32px;
+			    line-height: 32px;
+			}
+			/*首页按钮和尾页按钮的设置*/
+			.goodsJudgeBottomBtn li:nth-child(1) ,.goodsJudgeBottomBtn li:last-child {
+				color: #008BDD;
+			    margin: 0 15px;
+			    border-right: 1px solid #D2D2D2;
+			}
+			.goodsJudgeBottomBtn li:nth-last-of-type(2) {
+			    border-right: 1px solid #D2D2D2;
+			}
+			.goodsJudgeBottomBtn li:nth-child(6) {
+			    border-top:0;
+			    border-bottom: 0;
+			    /*background-color: #f2f2f2;*/
+			}
+			/*设置输入页号跳转评论页*/
+			.goodsJudgeBottmJump{
+				margin-left: 10px;
+				font-size: 16px;
+				height: 34px;
+				margin-top: 20px;
+			}
+			.goodsJudgeBottmJump input[type=text]{
+				width: 30px;
+				height: 31px;
+				padding: 0 10px;
+			}

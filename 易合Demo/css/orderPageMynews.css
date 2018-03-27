@@ -1,0 +1,141 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#orderPageMyNewsRight {
+	width: 986px;
+	border: 1px solid rgb(191, 191, 191);
+	/*border: 1px solid red;*/
+	height: 535px;
+	background-color: rgb(255, 255, 255);
+}
+
+#orderPageMyNewsRightTop {
+	height: 56px;
+	border-bottom: 1px solid rgb(191, 191, 191);
+	line-height: 56px;
+	padding: 0 21px;
+}
+
+#orderPageMyNewsBottom {
+	/*border: 1px solid rgb(191, 191, 191);*/
+	/*border: 1px solid red;*/
+	border-top: 0px;
+	height: 479px;
+	padding-top: 20px;
+}
+
+.orderPageMyNewsTabl {
+	width: 946px;
+	margin-top: 20px;
+	margin: 0 auto;
+	/*height: 300px;*/
+}
+
+.orderPageMyNewsTabl td {
+	text-align: center;
+	border-bottom: 1px solid #d3d3d3;
+	color: #666666;
+	font-size: 12px;
+	height: 50px;
+}
+
+.orderPageMyNewsTabl tr:hover {
+	background-color: #fff3ec;
+}
+
+
+/*翻页器*/
+
+.PageTurn1,
+a {
+	text-decoration: none;
+}
+
+.PageTurn1,
+a:hover {
+	text-decoration: none;
+}
+
+.tcdPageCode {
+	padding: 15px 20px;
+	text-align: left;
+	color: #ccc;
+	/*border: 1px solid red;*/
+}
+
+.tcdPageCode a {
+	display: inline-block;
+	color: #428bca;
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 10px;
+	border: 1px solid #ddd;
+	margin: 0 2px;
+	border-radius: 4px;
+	vertical-align: middle;
+}
+
+.tcdPageCode a:hover {
+	text-decoration: none;
+	border: 1px solid #428bca;
+}
+
+.tcdPageCode span.current {
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 10px;
+	margin: 0 2px;
+	color: #fff;
+	background-color: #428bca;
+	border: 1px solid #428bca;
+	border-radius: 4px;
+	vertical-align: middle;
+}
+
+.tcdPageCode span.disabled {
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 10px;
+	margin: 0 2px;
+	color: #bfbfbf;
+	background: #f2f2f2;
+	border: 1px solid #bfbfbf;
+	border-radius: 4px;
+	vertical-align: middle;
+}
+
+
+/*翻页器*/
+
+
+
+.PageTurn1 {
+	/*border: 1px solid red;*/
+	width: 900px;
+	margin: 0px auto;
+	margin-top: 30px;
+}
+
+.PageTurnRight {
+	/*border: 1px solid red;*/
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 20px;
+	width: 400px;
+}
+
+.PageTurnRight span {
+	padding: 10px 20px;
+}
+
+
+/*.PageTurn1{
+	width:820px;
+	margin: 20px auto;
+}*/

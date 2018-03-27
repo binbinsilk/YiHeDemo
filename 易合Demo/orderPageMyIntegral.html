@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>我的积分</title>
+		<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />-->
+		<link rel="stylesheet" type="text/css" href="css/orderPageAddress.css" />
+		<link rel="stylesheet" type="text/css" href="css/pullDown.css" />
+		<link rel="stylesheet" type="text/css" href="css/orderPageMyIntegral.css" />
+	</head>
+
+	<body>
+		<!--头部输入框和导航栏部分-->
+		<div id="div1"></div>
+		<div id="selectMenu">
+			<div id="pullDown">
+				<!--行业分类-->
+				<span id="tradeClassify">
+					<div>
+						行业分类
+						<img src="img/homePage/whiteJianTou.png"/>
+					</div>
+				</span>
+				<!--行业分类下拉内容-->
+				<div id="tradeClassify_pullDown">
+					<!--左侧分类-->
+					<ul id="pullDownLeft">
+						<li>
+							服装超市
+							<img src="img/homePage/rightJianTou.png" />
+						</li>
+						<li>
+							建材装修
+							<img src="img/homePage/rightJianTou.png" />
+						</li>
+						<li>
+							休闲娱乐
+							<img src="img/homePage/rightJianTou.png" />
+						</li>
+						<li>
+							生活服务
+							<img src="img/homePage/rightJianTou.png" />
+						</li>
+						<li>
+							3C市场
+							<img src="img/homePage/rightJianTou.png" />
+						</li>
+						<li>
+							丽人
+							<img src="img/homePage/rightJianTou.png" />
+						</li>
+						<li>
+							本地生活
+							<img src="img/homePage/rightJianTou.png" />
+						</li>
+						<li>
+							购物
+							<img src="img/homePage/rightJianTou.png" />
+						</li>
+						<li>
+							电子数码
+							<img src="img/homePage/rightJianTou.png" />
+						</li>
+					</ul>
+					<!--详细内容-->
+					<div id="pullDownRight">
+						<ul>
+							<li>
+								<a href="./HLAhome.html" style="text-decoration: none;color:white">海澜之家</a>
+							</li>
+							<li>Adidas</li>
+						</ul>
+						<ul>
+							<li>全友家私</li>
+							<li>居然之家</li>
+						</ul>
+						<ul>
+							<li>steam</li>
+							<li>育碧</li>
+						</ul>
+						<ul>
+							<li>美团外卖</li>
+							<li>百度糯米</li>
+						</ul>
+						<ul>
+							<li>iphone</li>
+							<li>华为</li>
+						</ul>
+						<ul>
+							<li>春纪</li>
+							<li>巴黎欧莱雅</li>
+						</ul>
+						<ul>
+							<li>同城二手</li>
+							<li>小时工</li>
+						</ul>
+						<ul>
+							<li>淘宝</li>
+							<li>京东</li>
+						</ul>
+						<ul>
+							<li>佳能</li>
+							<li>索尼</li>
+						</ul>
+					</div>
+				</div>
+
+				<!--上方选项-->
+				<ul id="optionsMenu">
+					<li>
+						<a href="./homePage.html">首页</a>
+					</li>
+					<li>
+						<a href="./choiceShop.html">精选商家</a>
+					</li>
+					<li>
+						<a href="./todayOnSale.html">今日特价</a>
+					</li>
+					<li>
+						<a href="./pointMall.html">积分商城</a>
+					</li>
+					<li>
+						<a href="./joinYH.html">加入易和</a>
+					</li>
+					<li>
+						<a href="###" id="onlineService">在线客服</a>
+					</li>
+				</ul>
+				<!--在线客服下拉内容-->
+				<div id="serviceContent">
+					<img src="img/homePage/keFuBack.png" />
+					<div id="QQServices">
+						<div class="QQService">
+							<img src="img/homePage/QQlogo.png" /> QQ客服1
+						</div>
+						<div class="QQService">
+							<img src="img/homePage/QQlogo.png" /> QQ客服2
+						</div>
+						<div class="QQService">
+							<img src="img/homePage/QQlogo.png" /> QQ客服3
+						</div>
+					</div>
+					<img src="img/homePage/QRCode.png" id="serviceCode" />
+				</div>
+			</div>
+		</div>
+
+		<!--中间部分-->
+		<div id="orderPageOfWrap" style="height: 800px;min-width: 1180px;">
+			<div id="orderPageOfCenter">
+				<!--中间左边菜单栏-->
+				<div id="orderPageOfCenterLeft">
+					<div id="me">
+						<img src="img/icon.png" />
+						<p>个人中心</p>
+					</div>
+					<ul id="orderPageOfCenterLeftUl">
+						<div class="div1">
+							<h4>交易管理</h4>
+						</div>
+						<li>
+							<span>
+						<a href="orderPageMyID.html">我的账户</a>
+					</span>
+						</li>
+						<li>
+							<span>
+						<a href="orderPageOrderForm.html">我的订单</a>
+					</span>
+						</li>
+						<li>
+							<span>
+						<a href="orderPageMyIntegral.html" style="color: #ed7122; border-bottom: 1px solid #ed7122;">我的积分</a>
+					</span>
+						</li>
+						<li>
+							<span>
+						<a href="orderPageAccountPay.html">我的易和券</a>
+					</span>
+						</li>
+						<div class="div1">
+							<h4>会员资料</h4>
+						</div>
+						<li>
+							<span>
+						<a href="orderPageData.html">个人资料</a>
+					</span>
+						</li>
+						<li>
+							<span>
+						<a href="orderPageAddress.html">地址管理</a>
+					</span>
+						</li>
+						<li>
+							<span>
+						<a href="orderPageCollect.html">我的收藏</a>
+					</span>
+						</li>
+						<li>
+							<span>
+						<a href="orderPageRecently.html">最近浏览</a>
+					</span>
+						</li>
+						<li>
+							<span>
+						<a href="orderPageAmendPassword.html">修改密码</a>
+					</span>
+						</li>
+						<div class="div1">
+							<h4>站内信息</h4>
+						</div>
+						<li>
+							<span>
+						<a href="orderPageMyNews.html">我的消息</a>
+					</span>
+						</li>
+					</ul>
+				</div>
+				<!--中间右边页面主题-->
+				<div id="orderPageMyIntegralRight">
+					<div id="orderPageMyIntegralRightTop">
+						<span class="orderPageSpanTop">
+							我的积分
+						</span>
+					</div>
+					<div id="orderPageMyIntegralRightBottom">
+						<div class="orderPageMyIntegralRightBottomTop">
+							<div class="MyIntegralD1">
+								<span>累计积分:</span>
+								<span style="color: #ff6c00;">8240分</span>
+							</div>
+							<div class="MyIntegralD2">
+								<span>当前积分:</span>
+								<span style="color: #ff6c00;">240分</span>
+							</div>
+							<div class="MyIntegralD3">
+								<a href="#"><span style="color: #008BDD;">兑换记录</span></a>
+							</div>
+						</div>
+						<div class="orderPageMyIntegralRightBottomBot">
+							<table border="0" class="MyIntegralRightTab">
+								<tr style="background-color: #f2f2f2;">
+									<th>积分日期</th>
+									<th>积分</th>
+									<th>来源</th>
+								</tr>
+								<tr>
+									<td>2015-04-05&nbsp;16:20:20</td>
+									<td>+80</td>
+									<td>消费赠送</td>
+								</tr>
+								<tr>
+									<td>2015-04-05&nbsp;16:20:20</td>
+									<td>+80</td>
+									<td>消费赠送</td>
+								</tr>
+								<tr>
+									<td>2015-04-05&nbsp;16:20:20</td>
+									<td>+80</td>
+									<td>消费赠送</td>
+								</tr>
+								<tr>
+									<td>2015-04-05&nbsp;16:20:20</td>
+									<td>+80</td>
+									<td>消费赠送</td>
+								</tr>
+								<tr>
+									<td>2015-04-05&nbsp;16:20:20</td>
+									<td>+80</td>
+									<td>消费赠送</td>
+								</tr>
+								<tr>
+									<td>2015-04-05&nbsp;16:20:20</td>
+									<td>+80</td>
+									<td>消费赠送</td>
+								</tr>
+								<tr>
+									<td>2015-04-05&nbsp;16:20:20</td>
+									<td>+80</td>
+									<td>消费赠送</td>
+								</tr>
+								<tr>
+									<td>2015-04-05&nbsp;16:20:20</td>
+									<td>+80</td>
+									<td>消费赠送</td>
+								</tr>
+								<tr>
+									<td>2015-04-05&nbsp;16:20:20</td>
+									<td>+80</td>
+									<td>消费赠送</td>
+								</tr>
+								<tr>
+									<td>2015-04-05&nbsp;16:20:20</td>
+									<td>+80</td>
+									<td>消费赠送</td>
+								</tr>
+							</table>
+						</div>
+						<!--翻页器-->
+						<div class="PageTurn">
+							<!-- 代码部分begin -->
+							<div class="tcdPageCode" style="display: inline-block;width:400px;">
+							</div>
+							<div class="PageTurnRight">
+								<span>共59页,&nbsp;到第</span><input type="text" value="" style="text-align: center; height: 25px;width: 40px;"/><span>页</span>
+								<span style="color: white;background-color: #008de1;padding: 10px 20px;border-radius: 5px;">确定</span><span>共59条</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--兑换记录-->
+				<div id="orderPageMyIntegralRight1">
+					<div id="orderPageMyIntegralRightTop1">
+						<span class="orderPageSpanTop">
+							我的积分
+						</span>
+						<span class="orderPageSpanTop1" style="cursor: pointer;">
+							<<返回我的积分
+						</span>
+					</div>
+					<div id="orderPageMyIntegralRightBottom1">
+						<table border="0" class="MyIntegralRightTab1">
+								<tr style="background-color: #f2f2f2;">
+									<th>积分日期</th>
+									<th>积分</th>
+									<th>兑换奖品</th>
+								</tr>
+								<tr>
+									<td>2015-04-05&nbsp;16:20:20</td>
+									<td>+80</td>
+									<td>毛巾</td>
+								</tr>
+								<tr>
+									<td>2015-04-05&nbsp;16:20:20</td>
+									<td>+80</td>
+									<td>毛巾</td>
+								</tr>
+								<tr>
+									<td>2015-04-05&nbsp;16:20:20</td>
+									<td>+80</td>
+									<td>毛巾</td>
+								</tr>
+								<tr>
+									<td>2015-04-05&nbsp;16:20:20</td>
+									<td>+80</td>
+									<td>毛巾</td>
+								</tr>
+								<tr>
+									<td>2015-04-05&nbsp;16:20:20</td>
+									<td>+80</td>
+									<td>毛巾</td>
+								</tr>
+								<tr>
+									<td>2015-04-05&nbsp;16:20:20</td>
+									<td>+80</td>
+									<td>毛巾</td>
+								</tr>
+								<tr>
+									<td>2015-04-05&nbsp;16:20:20</td>
+									<td>+80</td>
+									<td>毛巾</td>
+								</tr>
+								<tr>
+									<td>2015-04-05&nbsp;16:20:20</td>
+									<td>+80</td>
+									<td>毛巾</td>
+								</tr>
+								<tr>
+									<td>2015-04-05&nbsp;16:20:20</td>
+									<td>+80</td>
+									<td>毛巾</td>
+								</tr>
+								<tr>
+									<td>2015-04-05&nbsp;16:20:20</td>
+									<td>+80</td>
+									<td>毛巾</td>
+								</tr>
+							</table>
+							<!--翻页器-->
+						<div class="PageTurn1">
+							<!-- 代码部分begin -->
+							<div class="tcdPageCode" style="display: inline-block;width:400px;">
+							</div>
+							<div class="PageTurnRight">
+								<span>共59页,&nbsp;到第</span><input type="text" value="" style="text-align: center; height: 25px;width: 40px;"/><span>页</span>
+								<span style="color: white;background-color: #008de1;padding: 10px 20px;border-radius: 5px;">确定</span><span>共59条</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<!--<iframe src="foot.html" width="100%" height="436px" scrolling="no" frameborder="0"></iframe>-->
+		</div>
+	</body>
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<!--<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>-->
+	<script src="js/orderPagePublic.js" type="text/javascript" charset="utf-8"></script>
+	<!--头部下拉列表-->
+	<script src="js/pullDown.js" type="text/javascript" charset="utf-8"></script>
+	<!--翻页器-->
+	<script src="js/headAndFoot.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://www.lanrenzhijia.com/ajaxjs/jquery.page.js"></script>
+	<script src="js/pullDownJs.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+		$(".tcdPageCode").createPage({
+			pageCount: 59,
+			current: 1,
+			backFn: function(p) {
+				console.log(p);
+			}
+		});
+		//兑换记录
+		$('.MyIntegralD3').click(function () {
+			$('#orderPageMyIntegralRight').hide();
+			$('#orderPageMyIntegralRight1').slideDown(800,function () {
+				$(this).show();
+			});
+		});
+		$('.orderPageSpanTop1').click(function () {
+			$('#orderPageMyIntegralRight').slideDown(800,function () {
+				$(this).show();
+			});
+			$('#orderPageMyIntegralRight1').hide();
+		});
+		$(".PageTurn1 .tcdPageCode").createPage({
+			pageCount: 59,
+			current: 2,
+			backFn: function(p) {
+				console.log(p);
+			}
+		});
+		
+	</script>
+
+</html>

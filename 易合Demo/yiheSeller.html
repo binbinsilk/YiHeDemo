@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>易和生活港 | 易和商家</title>
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/pullDown.css"/>
+		<link rel="stylesheet" type="text/css" href="css/yiheSeller.css"/>
+	</head>
+	<body>
+		<!--首部-->
+		<div id="div1"></div>
+		<!--下拉-->
+		<div id="selectMenu">
+			<div id="pullDown">
+				<!--行业分类-->
+				<span id="tradeClassify">
+					<div>
+						行业分类
+						<img src="img/homePage/whiteJianTou.png"/>
+					</div>
+				</span>
+				<!--行业分类下拉内容-->
+				<div id="tradeClassify_pullDown">
+					<!--左侧分类-->
+					<ul id="pullDownLeft">
+						<li>							
+							服装超市
+							<img src="img/homePage/rightSanjiao.png"/>
+							
+						</li>
+						<li>
+							建材装修
+							<img src="img/homePage/rightSanjiao.png"/>
+						</li>
+						<li>
+							休闲娱乐
+							<img src="img/homePage/rightSanjiao.png"/>
+						</li>
+						<li>
+							生活服务
+							<img src="img/homePage/rightSanjiao.png"/>
+						</li>
+						<li>
+							3C市场
+							<img src="img/homePage/rightSanjiao.png"/>
+						</li>
+						<li>
+							丽人
+							<img src="img/homePage/rightSanjiao.png"/>
+						</li>
+						<li>
+				      		本地生活
+							<img src="img/homePage/rightSanjiao.png"/>
+						</li>
+						<li>
+							购物
+				      		<img src="img/homePage/rightSanjiao.png"/>
+						</li>
+						<li>
+			 				电子数码
+							<img src="img/homePage/rightSanjiao.png"/>
+						</li>
+					</ul>
+					<!--详细内容-->
+					<div id="pullDownRight">
+						<ul>
+							<li>
+								<a href="./HLAhome.html" style="text-decoration: none;color:white">海澜之家</a>
+							</li>
+						    <li>Adidas</li>
+						</ul>
+						<ul>
+							<li>全友家私</li>
+							<li>居然之家</li>
+						</ul>
+						<ul>
+							<li>steam</li>
+							<li>育碧</li>
+						</ul>
+						<ul>
+							<li>美团外卖</li>
+							<li>百度糯米</li>
+						</ul>
+						<ul>
+							<li>iphone</li>
+							<li>华为</li>
+						</ul>
+						<ul>
+				       		<li>春纪</li>
+							<li>巴黎欧莱雅</li>
+						</ul>
+						<ul>
+							<li>同城二手</li>
+							<li>小时工</li>
+						</ul>
+						<ul>
+							<li>淘宝</li>
+							<li>京东</li>
+						</ul>
+						<ul>
+							<li>佳能</li>
+							<li>索尼</li>
+						</ul>
+					</div>
+				</div>
+				
+				<!--上方选项-->
+				<ul id="optionsMenu">
+					<li><a href="./homePage.html">首页</a></li>
+					<li><a href="./choiceShop.html">精选商家</a></li>
+					<li><a href="./todayOnSale.html">今日特价</a></li>
+					<li><a href="./pointMall.html">积分商城</a></li>
+					<li><a href="./joinYH.html">加入易和</a></li>
+					<li>
+						<a href="###" id="onlineService">在线客服</a>
+					</li>
+				</ul>
+				<!--在线客服下拉内容-->
+				<div id="serviceContent">
+					<img src="img/homePage/keFuBack.png"/>
+					<div id="QQServices">
+						<div class="QQService">
+							<img src="img/homePage/QQlogo.png"/>
+							QQ客服1
+						</div>
+						<div class="QQService">
+							<img src="img/homePage/QQlogo.png"/>
+							QQ客服2
+						</div>
+						<div class="QQService">
+							<img src="img/homePage/QQlogo.png"/>
+							QQ客服3
+						</div>
+					</div>
+					<img src="img/homePage/QRCode.png" id="serviceCode"/>
+				</div>
+			</div>
+		</div>
+		<!--轮播图-->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+			    <div class="swiper-slide">
+			   	 	<img src="img/homePage/lunbo5.jpg"/>
+			    </div>
+			    <div class="swiper-slide">
+			   	 	<img src="img/homePage/lunbo4.jpg"/>
+			    </div>
+			    <div class="swiper-slide">
+			    		<img src="img/homePage/lunbo1.jpg"/>
+			    </div>
+			    <div class="swiper-slide">
+			    		<img src="img/homePage/lunbo2.jpg"/>
+			    </div>
+			    <div class="swiper-slide">
+			   	 	<img src="img/homePage/lunbo3.jpg"/>
+			    </div>
+		  	</div>
+		  	<div class="swiper-pagination"></div>
+		</div>
+		<!--我是商家-->
+		<div id="YHSeller">
+			<img src="img/todayOnSale/YHSeller.png"/>
+			<p>我是商家,点击查看如何加入易和商城</p>
+			<div id="YHSellerText">
+				<span class="YHSellerText-span1">易和</span>
+				<span class="YHSellerText-span2">商家</span>
+				<span class="YHSellerText-span3">YiHe Seller</span>
+			</div>
+			<div id="sortOrder">
+				<a >销量</a>
+				<a >评分</a>
+				<a >默认</a>
+			</div>
+		</div>
+		<div id="YHSellerContent">
+			<div id='YHSellerContent-list'>
+				<ul id="YHSellerContent-Left">
+					<li>
+						服装超市
+						<span class="YHSeller-listSpan"></span>
+						<img  src="img/homePage/rightSanjiao.png"/>
+					</li>
+					<li>
+						建材装修
+						<span class="YHSeller-listSpan"></span>
+						<img src="img/homePage/rightSanjiao.png"/>
+					</li>
+					<li>
+						休闲娱乐
+						<span class="YHSeller-listSpan"></span>
+						<img src="img/homePage/rightSanjiao.png"/>
+					</li>
+					<li>
+						生活服务
+						<span class="YHSeller-listSpan"></span>
+						<img src="img/homePage/rightSanjiao.png"/>
+					</li>
+					<li>
+						3C市场
+						<span class="YHSeller-listSpan"></span>
+						<img src="img/homePage/rightSanjiao.png"/>
+					</li>
+					<li>
+						丽人
+						<span class="YHSeller-listSpan"></span>
+						<img src="img/homePage/rightSanjiao.png"/>
+					</li>
+					<li>
+						本地生活
+						<span class="YHSeller-listSpan"></span>
+						<img src="img/homePage/rightSanjiao.png"/>
+					</li>
+					<li>
+						购物
+						<span class="YHSeller-listSpan"></span>
+						<img src="img/homePage/rightSanjiao.png"/>
+					</li>
+					<li>
+					 	电子数码
+					 	<span class="YHSeller-listSpan"></span>
+						<img src="img/homePage/rightSanjiao.png"/>
+					</li>
+				</ul>
+				<div id="YHSellerContent-Right">
+					<ul>
+						<li class="shop">Jack&Jones</li>
+						<li class="shop">Adidas</li>
+					</ul>
+					<ul>
+						<li class="shop1">全友家私</li>
+						<li class="shop1">居然之家</li>
+					</ul>
+					<ul>
+						<li class="shop2">steam</li>
+						<li class="shop2">育碧</li>
+					</ul>
+					<ul>
+						<li class="shop3">美团外卖</li>
+						<li class="shop3">百度糯米</li>
+					</ul>
+					<ul>
+						<li class="shop4">iphone</li>
+						<li class="shop4">华为</li>
+					</ul>
+					<ul>
+					   <li class="shop5">春纪</li>
+						<li class="shop5">巴黎欧莱雅</li>
+					</ul>
+					<ul>
+						<li class="shop6">同城二手</li>
+						<li class="shop6">小时工</li>
+					</ul>
+					<ul>
+						<li class="shop7">淘宝</li>
+						<li class="shop7">京东</li>
+					</ul>
+					<ul>
+						<li class="shop8">佳能</li>
+						<li class="shop8">索尼</li>
+					</ul>
+				</div>
+			</div>
+			<div class="choiceShop">
+				<div class="contentADRight">
+						<div>
+							<img src="img/homePage/carOrn01.png"/>
+							<span>同城汽车装饰中心</span>
+							<div id="detialMessage">
+								<p>
+									<img src="img/homePage/shop.png"/>
+									李旭婕
+								</p>
+								<p>
+									<img src="img/homePage/iPhone2.png"/>
+									18614561234
+								</p>
+								<p>
+									<img src="img/homePage/location.png"/>
+									郑州莲花街威科姆
+								</p>
+							</div>
+						</div>
+						<div>
+							<img src="img/homePage/carOrn02.png"/>
+							<span>同城汽车装饰中心</span>
+							<div id="detialMessage">
+								<p>
+									<img src="img/homePage/shop.png"/>
+									李旭婕
+								</p>
+								<p>
+									<img src="img/homePage/iPhone2.png"/>
+									18614561234
+								</p>
+								<p>
+									<img src="img/homePage/location.png"/>
+									郑州莲花街威科姆
+								</p>
+							</div>
+						</div>
+						<div>
+							<img src="img/homePage/carOrn03.png"/>
+							<span>同城汽车装饰中心</span>
+							<div id="detialMessage">
+								<p>
+									<img src="img/homePage/shop.png"/>
+									李旭婕
+								</p>
+								<p>
+									<img src="img/homePage/iPhone2.png"/>
+									18614561234
+								</p>
+								<p>
+									<img src="img/homePage/location.png"/>
+									郑州莲花街威科姆
+								</p>
+							</div>
+						</div>
+						<div>
+							<img src="img/homePage/carOrn04.png"/>
+							<span>同城汽车装饰中心</span>
+							<div id="detialMessage">
+								<p>
+									<img src="img/homePage/shop.png"/>
+									李旭婕
+								</p>
+								<p>
+									<img src="img/homePage/iPhone2.png"/>
+									18614561234
+								</p>
+								<p>
+									<img src="img/homePage/location.png"/>
+									郑州莲花街威科姆
+								</p>
+							</div>
+						</div>
+						<div>
+							<img src="img/homePage/carOrn05.png"/>
+							<span>同城汽车装饰中心</span>
+							<div id="detialMessage">
+								<p>
+									<img src="img/homePage/shop.png"/>
+									李旭婕
+								</p>
+								<p>
+									<img src="img/homePage/iPhone2.png"/>
+									18614561234
+								</p>
+								<p>
+									<img src="img/homePage/location.png"/>
+									郑州莲花街威科姆
+								</p>
+							</div>
+						</div>
+						<div>
+							<img src="img/homePage/carOrn06.png"/>
+							<span>同城汽车装饰中心</span>
+							<div id="detialMessage">
+								<p>
+									<img src="img/homePage/shop.png"/>
+									李旭婕
+								</p>
+								<p>
+									<img src="img/homePage/iPhone2.png"/>
+									18614561234
+								</p>
+								<p>
+									<img src="img/homePage/location.png"/>
+									郑州莲花街威科姆
+								</p>
+							</div>
+						</div>
+						<div>
+							<img src="img/homePage/carOrn06.png"/>
+							<span>同城汽车装饰中心</span>
+							<div id="detialMessage">
+								<p>
+									<img src="img/homePage/shop.png"/>
+									李旭婕
+								</p>
+								<p>
+									<img src="img/homePage/iPhone2.png"/>
+									18614561234
+								</p>
+								<p>
+									<img src="img/homePage/location.png"/>
+									郑州莲花街威科姆
+								</p>
+							</div>
+						</div>
+						<div>
+							<img src="img/homePage/carOrn06.png"/>
+							<span>同城汽车装饰中心</span>
+							<div id="detialMessage">
+								<p>
+									<img src="img/homePage/shop.png"/>
+									李旭婕
+								</p>
+								<p>
+									<img src="img/homePage/iPhone2.png"/>
+									18614561234
+								</p>
+								<p>
+									<img src="img/homePage/location.png"/>
+									郑州莲花街威科姆
+								</p>
+							</div>
+						</div>
+						<div>
+							<img src="img/homePage/carOrn06.png"/>
+							<span>同城汽车装饰中心</span>
+							<div id="detialMessage">
+								<p>
+									<img src="img/homePage/shop.png"/>
+									李旭婕
+								</p>
+								<p>
+									<img src="img/homePage/iPhone2.png"/>
+									18614561234
+								</p>
+								<p>
+									<img src="img/homePage/location.png"/>
+									郑州莲花街威科姆
+								</p>
+							</div>
+						</div>
+				</div>
+				<!--底部导航页-->
+				<div id="YHSellerBottom">
+					<ul class="YHSellerBottomBtn">
+						<li>首页</li>
+						<li>上一页</li>
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>...</li>
+						<li>9</li>
+						<li>10</li>
+						<li>下一页</li>
+						<li>尾页</li>
+					</ul> 
+					<br />
+						<p class="YHSellerBottomJump">
+							共 <span>11</span> 页, 到第 &nbsp;<input type="text" />&nbsp;页 &nbsp;
+							<input style="width:90px;height:34px;border-radius:5px;color:#fff;font-size:18px;background-color: #008DE1;border:0" type="button" value="确定"/>&nbsp;&nbsp;
+							共 <span>215</span> 条</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer"></div>
+	</body>
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/swiper-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/pullDown.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/headAndFoot.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/pullDownJs.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		var mySwiper = new Swiper('.swiper-container', {
+			autoplay: 2000,
+			speed:800,
+			loop : true,
+			pagination : '.swiper-pagination',
+			paginationType : 'bullets',
+			paginationClickable :true,
+			autoplayDisableOnInteraction : false,
+			grabCursor : true
+		})
+
+		var YHlis = document.querySelectorAll('#YHSellerContent-Left li');
+		var YHdiv = document.getElementById('YHSellerContent-Right');
+		var YHuls = YHdiv.getElementsByTagName("ul");
+//		var putRight = document.getElementById('pullDownRight');
+		for(var i = 0; i < YHlis.length;i++){
+			//添加标识,记录
+			YHlis[i].index = i;
+			YHlis[i].onmouseenter = function(){
+				for(var j = 0 ; j < YHuls.length;j++){
+					YHuls[j].style.display = "none";
+				}
+				var k = this.index;
+				//显示对应的界面
+				YHuls[k].style.display = "block";
+}
+}
+$(function() {
+	$('#YHSellerContent').mouseenter(function  () {
+	$('#YHSellerContent-Left li').mouseenter(function() {
+		$('#YHSellerContent-Right').show();
+		$('#YHSellerContent-Right').children().eq($(this).index()).show();
+		$(this).css({
+			color: 'white',
+			backgroundColor: '#008de1',
+		})
+		$(this).children().eq(1).attr('src', 'img/homePage/rightJianTou.png')
+	});
+			$('.shop').click(function  () {
+				$('.YHSeller-listSpan').html('');
+				$('.YHSeller-listSpan').eq(0).html('>' + $(this).html());
+			});
+			$('.shop1').click(function  () {
+				$('.YHSeller-listSpan').html('');
+				$('.YHSeller-listSpan').eq(1).html('>' + $(this).html());
+			});
+			$('.shop2').click(function  () {
+				$('.YHSeller-listSpan').html('');
+				$('.YHSeller-listSpan').eq(2).html('>' + $(this).html());
+			});
+			$('.shop3').click(function  () {
+				$('.YHSeller-listSpan').html('');
+				$('.YHSeller-listSpan').eq(3).html('>' + $(this).html());
+			});
+			$('.shop4').click(function  () {
+				$('.YHSeller-listSpan').html('');
+				$('.YHSeller-listSpan').eq(4).html('>' + $(this).html());
+			});
+			$('.shop5').click(function  () {
+				$('.YHSeller-listSpan').html('');
+				$('.YHSeller-listSpan').eq(5).html('>' + $(this).html());
+			});
+			$('.shop6').click(function  () {
+				$('.YHSeller-listSpan').html('');
+				$('.YHSeller-listSpan').eq(6).html('>' + $(this).html());
+			});
+			$('.shop7').click(function  () {
+				$('.YHSeller-listSpan').html('');
+				$('.YHSeller-listSpan').eq(7).html('>' + $(this).html());
+			});
+			$('.shop8').click(function  () {
+				$('.YHSeller-listSpan').html('');
+				$('.YHSeller-listSpan').eq(8).html('>' + $(this).html());
+			});
+
+	
+	
+	$('#YHSellerContent-Left li').mouseleave(function() {
+		$('#YHSellerContent-Right').hide();
+//		$('#YHSellerContent-Right ul').hide();
+		$(this).css({
+			color: '#6c6a6a',
+			backgroundColor: 'white',
+		})
+		$(this).children().eq(1).attr('src', 'img/homePage/rightSanJiao.png')
+	})
+})
+$('#YHSellerContent-Right').mouseenter(function() {
+	$('#YHSellerContent-Right').show()
+})
+$('#YHSellerContent-Right').mouseleave(function() {
+	$('#YHSellerContent-Right').hide()
+	$('#YHSellerContent-Right ul').hide();
+	
+})
+})
+	</script>
+</html>
